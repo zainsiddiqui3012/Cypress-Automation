@@ -1,9 +1,0 @@
-[
-  {
-    "ResellerScreen": "Verify Peer Benchmarking option should be moved from Risk Management to KXI Engine as sub module option on Reseller Add screeen.",
-    "ResellerEditScreen": "Verify Peer Benchmarking option should be moved from Risk Management to KXI Engine as sub module option on Reseller Edit screeen.",
-    "CustomerScreen": "Verify Peer Benchmarking option should be moved from Risk Management to KXI Engine as sub module option on Customer screeen as well.",
-    "ExistingCustomer": "Verify on existing customers that Peer Benchmarking option should display under the KXI Engine as sub module. ",
-    "ResellerSpace": "Verify Peer Benchmarking option should be moved from Risk Management to KXI Engine as sub module option on Customer screeen from Reseller space"
-  }
-]

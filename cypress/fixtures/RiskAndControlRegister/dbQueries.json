@@ -1,4 +1,0 @@
-{
-    "predictedRiskCategory":"SELECT * FROM PredictedRiskForRiskCategory ORDER BY id DESC LIMIT 1;"
-
-}

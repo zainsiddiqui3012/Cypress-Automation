@@ -1,7 +1,0 @@
-{
-  "resellerName": "360factors",
-  "customerNameForRegChange": "First National Bank of Alpine",
-  "fnbaURL": "https://qa2.360factors.com/predict360/manage.do?method=customer&id=460",
-  "parentModuleName": "Compliance Management",
-  "subModuleName": "Regulatory Change Management"
-}
