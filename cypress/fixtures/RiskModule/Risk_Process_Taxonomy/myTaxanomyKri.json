@@ -1,0 +1,50 @@
+{
+    "toastMsg":{
+        "mendatoryFieldMsg":"Problem(s) in save. Please update the highlighted fields below and try again.",
+        "weightValidationMsg":"Weight must be less than or equals to 100.Weight must be less than or equals to 100.",
+        "sameKriMsg":"KRI already exist"
+    },
+    "weightValues":{
+        "invalidValue":"101",
+        "validValue":"10"
+    },
+    "kri":{
+        "data":{
+            "valid":{
+                "thresholdKxi":10,
+                "bothNotApplicable":0,
+                "partialNotApplicable":60
+            },
+            "invalid":{
+                "partialNotApplicable":90
+            }
+        },
+        "weight":{
+            "thresholdKxi":90,
+            "bothNotApplicable":0,
+            "partialNotApplicable":10
+
+        }
+    },
+    "riskAppetite":{
+        
+        "data":{
+            "valid":{
+                "thresholdKxi":26,
+                "bothNotApplicable":0,
+                "partialNotApplicable":20
+            },
+            "invalid":{
+                "partialNotApplicable":90
+            }
+        },
+        "weight":{
+            "thresholdKxi":90,
+            "bothNotApplicable":0,
+            "partialNotApplicable":10
+
+        }        
+    }
+
+    
+}

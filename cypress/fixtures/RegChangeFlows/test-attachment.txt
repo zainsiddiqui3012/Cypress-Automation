@@ -1,0 +1,2 @@
+# Test File for Attachment Testing
+This is a test document used for Cypress automation testing.

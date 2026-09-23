@@ -1,0 +1,13 @@
+[
+ 
+    {
+      "name" : "Validate data of Assessment with single assignee after creation",
+      "assessmentTemplate" : "Template with 1 section",
+      "description" : "Description added through automation",
+       "Recurrence" : "None",
+       "singleAssignee" : "CMS Automation"
+     }    
+   
+      
+   ]
+   

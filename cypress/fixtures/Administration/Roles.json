@@ -1,0 +1,370 @@
+{
+  "addRoleForm": {
+    "headingText": "Add Role"
+  },
+  "addRole": {
+    "name": "test role",
+    "description": "",
+    "reseller": "update test res dusntzzm",
+    "customer": "test Customer owsdlzke",
+    "allModules": [
+      "Third Party Management",
+      "Regulations & Obligations"
+    ],
+    "deselectAllModules": [],
+    "selectiveModules": [
+      {
+        "name": "Administration",
+        "subModulesCheck": [
+          {
+            "name": "Assessment",
+            "read": true,
+            "create": false,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "Assessment Section",
+            "read": true,
+            "create": false,
+            "update": false,
+            "delete": false
+          },
+          {
+            "name": "Locations/Branches",
+            "read": false,
+            "create": false,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "Organizational Hierarchy",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "Role",
+            "read": false,
+            "create": true,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "User Group",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "User",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": true
+          },
+          {
+            "name": "Asset Type",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": true
+          },
+          {
+            "name": "Nodes",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": true
+          },
+          {
+            "name": "Asset",
+            "read": true,
+            "create": true,
+            "update": true,
+            "delete": false
+          },
+          {
+            "name": "Custom Fields",
+            "read": true,
+            "create": true,
+            "update": false,
+            "delete": true
+          },
+          {
+            "name": "Customer Profile",
+            "read": false,
+            "create": true,
+            "update": false,
+            "delete": false
+          },
+          {
+            "name": "Business Area",
+            "read": false,
+            "create": false,
+            "update": false,
+            "delete": false
+          }
+        ]
+      },
+      {
+        "name": "Assessments",
+        "subModulesCheck": [
+          {
+            "name": "Frameworks",
+            "read": false,
+            "create": true,
+            "update": false,
+            "delete": false
+          },
+          {
+            "name": "Question Bank",
+            "read": false,
+            "create": true,
+            "update": false,
+            "delete": false
+          },
+          {
+            "name": "Question",
+            "read": false,
+            "create": true,
+            "update": false,
+            "delete": false
+          }
+        ]
+      }
+    ]
+  },
+  "updateRole": {
+    "name": "update test Role",
+    "description": "test description $$$12345",
+    "allModules": [
+      "Qualification Management",
+      "Audit Management",
+      "Compliance Management Activities (Global Settings)",
+      "Risk Management"
+    ],
+    "deselectAllModules": [
+      "Third Party Management"
+    ],
+    "selectiveModules": [
+      {
+        "name": "Document Management",
+        "subModulesCheck": [
+          {
+            "name": "Documents & Folders",
+            "read": true,
+            "create": true,
+            "update": false,
+            "delete": false
+          },
+          {
+            "name": "Document Tag",
+            "read": true,
+            "create": true,
+            "update": false,
+            "delete": false
+          }
+        ]
+      }
+    ]
+  },
+  "systemRoles": [
+    "Global Risk Reporting"
+  ],
+  "pageRecordCount": "10",
+  "emptyAuditLog": "No record found.",
+  "mandatoryFieldsErrorText": "Problem(s) in save. Please update the highlighted fields below and try again.",
+  "singleRoles": {
+    "allAccess": {
+      "name": "All Access",
+      "description": "",
+      "key": "allAccess"
+    },
+    "administration": {
+      "name": "Administration",
+      "description": "",
+      "key": "administration"
+    },
+    "regulationsAndObligations": {
+      "name": "Regulations & Obligations",
+      "description": "",
+      "key": "regulationsAndObligations"
+    },
+    "assessments": {
+      "name": "Assessments",
+      "description": "",
+      "key": "assessments"
+    },
+    "processFailureModeRiskManagement": {
+      "name": "Process Failure Mode Risk Management",
+      "description": "",
+      "key": "processFailureModeRiskManagement"
+    },
+    "riskManagement": {
+      "name": "Risk Management",
+      "description": "",
+      "key": "riskManagement"
+    },
+    "vendorRiskManagement1": {
+      "name": "Vendor Risk Management",
+      "description": "",
+      "key": "vendorRiskManagement1"
+    },
+    "issueManagement": {
+      "name": "Issue Management",
+      "description": "",
+      "key": "issueManagement"
+    },
+    "regulatoryChangeManagementV2": {
+      "name": "Regulatory Change Management V2",
+      "description": "",
+      "key": "regulatoryChangeManagementV2"
+    },
+    "kxIEngine": {
+      "name": "KxI Engine",
+      "description": "",
+      "key": "kxIEngine"
+    },
+    "complianceManagementActivities_GlobalSettings": {
+      "name": "Compliance Management Activities (Global Settings)",
+      "description": "",
+      "key": "complianceManagementActivities_GlobalSettings"
+    },
+    "auditManagement": {
+      "name": "Audit Management",
+      "description": "",
+      "key": "auditManagement"
+    },
+    "documentManagement": {
+      "name": "Document Management",
+      "description": "",
+      "key": "documentManagement"
+    }
+  },
+  "regChangeV2Roles": {
+    "moduleName": "Regulatory Change Management V2",
+    "customer": "Customer for Reg Change V2",
+    "reseller": "Reseller for Reg Change V2",
+    "globalRegulatoryChangeManager": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": false,
+      "update": false,
+      "delete": false
+    },
+    "globalRegulatoryChangeManagerEdit": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": false
+    },
+    "globalRegulatoryChangeManagerFull": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "regulatoryChangeManagement": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": false,
+      "update": false,
+      "delete": false
+    },
+    "regulatoryChangeManagementEdit": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": false
+    },
+    "regulatoryChangeManagementFull": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "administration": {
+      "key": "administration",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "pinRole": {
+      "key": "pinRole",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    }
+  },
+  "regChangeRoles": {
+    "moduleName": "Regulatory Change Management",
+    "customer": "First National Bank of Alpine",
+    "customer2": "NON ERM",
+    "reseller": "360factors",
+    "globalRegulatoryChangeManager": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": false,
+      "update": false,
+      "delete": false
+    },
+    "globalRegulatoryChangeManagerEdit": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": false
+    },
+    "globalRegulatoryChangeManagerFull": {
+      "key": "globalRegulatoryChangeManager",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "regulatoryChangeManagement": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": false,
+      "update": false,
+      "delete": false
+    },
+    "regulatoryChangeManagementEdit": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": false
+    },
+    "regulatoryChangeManagementFull": {
+      "key": "regulatoryChangeManagement",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "administration": {
+      "key": "administration",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    },
+    "pinRole": {
+      "key": "pinRole",
+      "read": true,
+      "create": true,
+      "update": true,
+      "delete": true
+    }
+  }
+}

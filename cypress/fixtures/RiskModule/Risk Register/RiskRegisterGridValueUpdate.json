@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Risk Register Grid values Updated Successfully",
+
+    "RiskName":"Risk Name Updated from Automation ",
+
+    "Edit_Approach": "Mitigate",
+
+    "Edit_InherentLikelihood": "Almost Certain",
+
+    "Edit_InherentImpact": "Moderate",
+
+    "Edit_ResidualLikelihood": "Likely",
+
+    "Edit_ResidualImpact": "Catastrophic"
+
+ 
+
+  }
+]

@@ -1,0 +1,14 @@
+
+[
+ 
+    {
+       "name" : "Verify if more than one content library is assigned to customer  then there will be drop down list which will show all the risk taxonomies along with content libraries.",
+       "ContentLibrary1": "ABA Content Library >> ABA Risk Taxonomy",
+       "ContentLibrary2": "Content Lib None Space >> 360factors Community Risks",
+       "ContentLibrary3": "Content Lib None Space >> Automation Taxonomy of Risk"
+            
+     }    
+   
+      
+   ]
+   

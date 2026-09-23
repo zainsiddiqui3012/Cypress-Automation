@@ -1,0 +1,181 @@
+{
+  "credentials": {
+    "username": "cmsautomationuser001",
+    "password": "Test12345",
+    "customerKey": "bcus"
+  },
+  "parent": {
+    "create": {
+      "summaryPrefix": "RegChange E2E Test",
+      "summary": "RegChange E2E Test",
+      "businessUnit": "+Switzerland",
+      "natureOfChange": "Final Rule",
+      "typeOfChange": "Regulation",
+      "subjectArea": "Risk Management",
+      "magnitude": "medium"
+    },
+    "edit": {
+      "summary": "RegChange - Updated Summary via Edit",
+      "description": "Updated description for RegChange parent - E2E testing",
+      "natureOfChange": "Propose rule",
+      "typeOfChange": "Manual",
+      "magnitude": "high",
+      "assignee": "CMS Automation",
+      "dueDate": {
+        "day": "26",
+        "month": "December",
+        "year": "2026",
+        "formatted": "26/Dec/2026"
+      }
+    },
+    "statuses": {
+      "new": "New",
+      "open": "Open",
+      "evaluateImpact": "Evaluate Impact",
+      "implementation": "Implementation",
+      "closed": "Closed",
+      "abandoned": "Abandoned",
+      "abandonedClosed": "Abandoned-Closed",
+      "reopened": "Reopened"
+    }
+  },
+  "actionPlan": {
+    "title": "Reg Change Action Plan",
+    "dueDate": "2026-04-30",
+    "dueDateFormatted": "30/Apr/2026",
+    "statusUpdate": "Action Plan - 50% complete, on track",
+    "businessUnit": "Automated Org Group",
+    "edit": {
+      "summary": "Updated Action Plan Summary - E2E Test",
+      "description": "Updated Action Plan description - automation test",
+      "assignee": "bfsi User",
+      "dueDate": {
+        "day": "25",
+        "month": "May",
+        "year": "2026",
+        "formatted": "25/May/2026"
+      }
+    },
+    "statuses": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "approvalNeeded": "Approval Needed",
+      "submittedForClosure": "Submitted for Closure",
+      "closed": "Closed"
+    }
+  },
+  "evaluateImpact": {
+    "title": "Evaluate Impact",
+    "dueDate": "2026-05-15",
+    "dueDateFormatted": "15/May/2026",
+    "comment": "Evaluate Impact - testing comments",
+    "attachment": {
+      "fileName": "TestTags.txt",
+      "path": "cypress/attachment/TestTags.txt"
+    },
+    "edit": {
+      "summary": "Updated Evaluate Impact Summary - E2E Test",
+      "description": "Updated Evaluate Impact description - automation test",
+      "assignee": "bfsi User",
+      "dueDate": {
+        "day": "20",
+        "month": "June",
+        "year": "2026",
+        "formatted": "20/Jun/2026"
+      }
+    },
+    "statuses": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "approvalNeeded": "Approval Needed",
+      "closed": "Closed",
+      "reopened": "Reopened"
+    }
+  },
+  "subtask": {
+    "summary": "Test Subtask - E2E Cypress",
+    "description": "Subtask for testing",
+    "statuses": {
+      "open": "Open",
+      "inProgress": "In Progress",
+      "closed": "Closed",
+      "reopened": "Reopened"
+    }
+  },
+  "assignee": {
+    "single": {
+      "username": "test.regchange",
+      "displayName": "CMS Automation"
+    },
+    "group": {
+      "name": "Asma COC Group"
+    },
+    "bfsiUser": "saad bfsi"
+  },
+  "watchers": {
+    "single": "saad1manager1@bcus",
+    "singleWithBrackets": "(saad1manager1@bcus)",
+    "count": 1
+  },
+  "comments": {
+    "parent": "E2E test comment - Cypress automation"
+  },
+  "attachments": {
+    "invalid": {
+      "fileName": "invalid.docx"
+    }
+  },
+  "errorMessages": {
+    "summaryRequired": "You must specify a summary",
+    "summaryTooLong": "Summary must be less than 255 characters",
+    "summaryTooLongEvaluateImpact": "summary: Summary must be less than 255 characters",
+    "invalidAttachment": "No data was sent for invalid.docx",
+    "duplicateActionPlan": "Action plan for selected Business Unit(s) is already in open state"
+  },
+  "workflowButtons": {
+    "implement": "Implement",
+    "close": "Close",
+    "reopen": "Reopen",
+    "abandon": "Abandon",
+    "createActionPlan": "Create Action Plan",
+    "notifyBUAndClose": "Notify BU’s and Close",
+    "createFinding": "Create Finding N",
+    "startProgress": "Start Progress",
+    "stopProgress": "Stop Progress",
+    "sendForApproval": "Send for approval",
+    "accept": "Accept",
+    "reject": "Reject",
+    "complete": "Complete",
+    "closeIssue": "Close Issue",
+    "reopenIssue": "Reopen Issue",
+    "assign": "Assign",
+    "resolve": "Resolve",
+    "submitForClosure": "Submit for Closure",
+    "acceptAndClose": "Accept and Close"
+  },
+  "childTypes": {
+    "actionPlan": "Reg Change Action Plan",
+    "evaluateImpact": "Evaluate Impact"
+  },
+  "urls": {
+    "stage": "https://stage.360factors.com",
+    "caseManagement": "https://stage.360factors.com/casemanagement/browse/"
+  },
+  "messages": {
+    "noWatchers": "There are no watchers.",
+    "unassigned": "Unassigned"
+  },
+  "waitTimes": {
+    "short": 1000,
+    "medium": 2000,
+    "long": 3000,
+    "menu": 3000,
+    "stabilize": 5000,
+    "notification": 20000,
+    "finding": 30000
+  },
+  "validationLimits": {
+    "summaryMaxLength": 255,
+    "testCharacterLimit": 260
+  }
+}

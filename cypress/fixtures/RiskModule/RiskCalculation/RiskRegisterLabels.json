@@ -1,0 +1,32 @@
+[
+    {
+      "////Comments//////////": "Enter required data in Risk grid",
+      "Approach": "Accept",  
+
+      "InherentLikelihood": "Likely",  
+      "InherentImpact": "Moderate",  
+
+      "ResidualLikelihood": "Possible",  
+      "ResidualImpact": "Major",
+
+      "Effectiveness": "50",  
+      "Implemented": "20",
+
+
+      "////Comments///////////": "Risk Analysis Dimensions -Inherent Risk calculation Verify Here",
+      "Likelihood_Tab1_Label": "Likely",
+      "Likelihood_Tab1_Value": "4",
+
+      "Impact_Tab2_Label": "Moderate",
+      "Impact_Tab2_Value": "3",
+
+      "////Comments/////////////": "Risk Analysis Dimensions - Residual Risk calculation Verify Here",
+      "Likelihood_Tab1_LabelResidual": "Possible",
+      "Likelihood_Tab1_ValueResidual": "4",
+      
+      "Impact_Tab2_LabelResidual": "Major",
+      "Impact_Tab2_ValueResidual": "3"
+
+
+    }
+  ]

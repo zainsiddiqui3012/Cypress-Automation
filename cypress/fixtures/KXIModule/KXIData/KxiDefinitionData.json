@@ -1,0 +1,15 @@
+{
+  "searchTerm": "Operational loss 9",
+  "expectedToast": "Problem(s) in save. Please update the highlighted fields below and try again.",
+  "addButtonText": "Add",
+  "dateToSelect": "2",
+  "expectedDateFormat": "^\\d{2}/\\d{2}/\\d{4}$",
+  "successToastMessage": "KxI Data has been saved successfully.",
+  "targetFieldInvalidMessage": "Invalid number found in target field:",
+  "alreadyExistToastMessage": "KRI Data already exists",
+  "chatBotWelcomeMessage": "Hello, I am Kaia, your Key Business Metrics AI companion. I can answer questions regarding your Performance and Risk Metrics, Peer banks and Government Economic data (FRED).",
+  "showAllDefinitionFormat": "# of Fraud-related event with losses > $100K from a single source (excluding customer directed events) Version(1)",
+  "activeKriDefinitionApi": "**/kriDefination/activeKriDefinationGridData/?_=*",
+  "commentText": "This is a test comment for KXI Data%^&&**",
+  "kxiValue" : 20
+}

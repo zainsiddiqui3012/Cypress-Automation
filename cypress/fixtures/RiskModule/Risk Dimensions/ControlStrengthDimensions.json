@@ -1,0 +1,34 @@
+
+[
+ 
+    {
+       "name" : "Add Control Strength Dimensions Successfully",
+       "Lable1": "Rare = 0",
+       "Lable1_Value": "0",
+       "Guidance1": "Testing -01",
+
+       "Lable2": "Low = 10",
+       "Lable2_Value": "10",
+       "Guidance2": "Testing -02",
+
+       "Lable3": "Moderate = 20",
+       "Lable3_Value": "20",
+       "Guidance3": "Testing -03",
+
+       "Lable4": "Certain =30",
+       "Lable4_Value": "30",
+       "Guidance4": "Testing -04",
+
+       "Lable5": "Almost Certain = 50",
+       "Lable5_Value": "50",
+       "Guidance5": "Testing -05"     
+
+
+
+     
+   
+     }    
+   
+      
+   ]
+   

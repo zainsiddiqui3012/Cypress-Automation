@@ -1,0 +1,12 @@
+[
+ 
+    {
+       "name" : "FCPTL Issue Form : Set Customer Profile for Single Issue Owner type",
+       "issueOwnerType" : "Single",
+       "issueOwnerTypeName" : "admin.cptl",
+       "customerProfileUpdatemsg" : "Customer Profile saved successfully."
+     }    
+   
+      
+   ]
+   

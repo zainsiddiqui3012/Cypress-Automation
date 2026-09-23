@@ -1,0 +1,23 @@
+{
+  "summary": "This is the Summary of Regular Task - ",
+  "description": "This is the description of Regular Task",
+  "assigneeUser": "ahsan stgdeci",
+  "newAssignee":"dev user1",
+  "labelTaskTypeValue": "Kxi Regular Task",
+  "labelStatusNewValue": "New",
+  "labelStatusInProgressValue": "In-Progress",
+  "labelStatusOpenValue": "Open",
+  "labelCategoryValue": "CAT 03",
+  "labelAssigneeTypeValue": "Single",
+  "labelWebFormTypeValue": "Internal",
+  "labelPriorityValue": "Medium",
+  "labelStartProgressButtonLabel": "Start Progress",
+  "labelStopProgressButtonLabel": "Stop Progress",
+  "labelCloseButtonLabel": "Close",
+  "labelStatusCloseValue": "Closed",
+  "labelReopenButtonLabel": "Reopen",
+  "labelForHeadingTaskSummaryPage": "Task Management System",
+  "linkedKXI": "Linked KXI",
+  "kxiRegularTask": "Kxi Regular Task",
+  "createTask": "Create Task"
+}

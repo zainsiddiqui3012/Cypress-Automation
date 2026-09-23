@@ -1,0 +1,156 @@
+{
+  "Instructions": [
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "KxI Definitions sheet is used to import (add) new KxI Definition(s) to the Customer Space.",
+      "": ""
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "KxI Definition(s) Export template sheet is used to update the already created KxI Definition(s). Insertion can also be done.",
+      "": ""
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "",
+      "": ""
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "",
+      "": ""
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Pre-Requisites",
+      "": ""
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Risk Category(ies)",
+      "": "Read-Only Tab. Auto-populates the Risk Category(ies) from the Customer Space. Data to be used while Linking KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "KxI Category(ies)",
+      "": "Read-Only Tab. Auto-populates the KxI Category(ies) from the Customer Space. Data to be used while creating/updating KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Risk Definitions",
+      "": "Read-Only Tab. Auto-populates the Risk Definitions from the Customer Space. Data to be used while Linking KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Risk Instances",
+      "": "Read-Only Tab. Auto-populates the Risk Instances from the Customer Space. Data to be used while Linking KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Vendors",
+      "": "Read-Only Tab. Auto-populates the Vendors from the Customer Space. Data to be used while creating KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Risk Appetite",
+      "": "Read-Only Tab. Auto-populates the Risk Appetites from the Customer Space. Data to be used while creating/updating KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Reg Areas",
+      "": "Read-Only Tab. Auto-populates the Regulatory Area(s) from the Customer Space. Data to be used while creating/updating KxI Definition."
+    },
+    {
+      "This template is used to bulk import the KxI Definition(s), when the user ERM module.": "Business Units",
+      "": "Read-Only Tab. Auto-populates the Business Units from the Customer Space. Data to be used while creating/updating KxI Definition."
+    }
+  ],
+  "KxI Definition": [
+    {
+      "Id": "",
+      "Name": "ZZ Kxi definition Jan 31, 2025 8:25:21 PM",
+      "Description": "",
+      "Vendor Id": "",
+      "KxI Category": "",
+      "Regulatory Area": "",
+      "Risk Appetite": "",
+      "Metric": "",
+      "KRI Scope": "Corporate",
+      "Business Unit": "",
+      "Type": "Number",
+      "Owner Type": "Single",
+      "Owner": "kxiuser_01",
+      "Viewer(s) Type": "Single",
+      "Viewer(s)": "kxiuser_01",
+      "Delete Type": "Single",
+      "Delete": "kxiuser_01",
+      "Icon": "",
+      "Status": "Active",
+      "Measurement period": "Monthly",
+      "Data Entry Type": "Manual",
+      "Left Trigger Comparer": "Less than",
+      "Left Trigger Context": "Negative",
+      "Left Trigger Context Icons": "Down negative",
+      "Left Trigger Level 1": 1,
+      "Left Trigger Level 2": 2,
+      "Left Trigger Level 3": 4,
+      "Target Value": 5,
+      "Right Trigger Comparer": "Greater than",
+      "Right Trigger Context": "Positive",
+      "Right Trigger Context Icons": "Elevated positive",
+      "Right Trigger Level 1": 6,
+      "Right Trigger Level 2": 8,
+      "Right Trigger Level 3": 9
+    }
+  ],
+  "KxI Mapping": [],
+  "KxI Category(ies)": [
+    {
+      "Id": 154,
+      "Name": "cat-06-09-2024",
+      "Description": "KxI description 06-09-2024"
+    },
+    {
+      "Id": 155,
+      "Name": "kxi category automation",
+      "Description": "kxi category automation"
+    },
+    {
+      "Id": 156,
+      "Name": "KxI Category 09-09-2024",
+      "Description": "KxI description 09-09-2024"
+    },
+    {
+      "Id": 157,
+      "Name": "KxI Category 10-09-2024 Test1",
+      "Description": "KxI Category description 10-09-2024 Test1"
+    },
+    {
+      "Id": 158,
+      "Name": "KxI Category 11-09-2024",
+      "Description": "KxI Category description"
+    },
+    {
+      "Id": 159,
+      "Name": "Kxl Category Cypress 11-09-2024",
+      "Description": "KxL Category Cypress description"
+    },
+    {
+      "Id": 160,
+      "Name": "KxI Category 12-09-2024",
+      "Description": "KxI Category description 12-09-2024"
+    },
+    {
+      "Id": 161,
+      "Name": "KxI Category 13-09-2024",
+      "Description": ""
+    },
+    {
+      "Id": 162,
+      "Name": "KxI Category 14-09-2024",
+      "Description": ""
+    }
+  ],
+  "Risk Category(ies)": [],
+  "Risk Definitions": [],
+  "Risk Instances": [],
+  "Vendors": [],
+  "Risk Appetite": [],
+  "Metric": [],
+  "Reg Areas": [],
+  "Business Units": [
+    {
+      "Id": 11039,
+      "Business Unit": "kxi auto BU",
+      "Hierarchy": "KXI Decisions Customer"
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "threeElipsesOptions": {
+    "riskApplicability": {
+      "title": "Risk Applicability",
+      "riskCategory": "Risk Cat Oct 10, 2025 4:57:26 PM",
+      "riskDefinition": "Risk Def Oct 10, 2025 4:58:37 PM",
+      "riskCategoryWithAssessment": "Risk Cat Aug 12, 2025 2:38:49 PM",
+      "riskDefinitionWithAssessment": "Risk Def Aug 12, 2025 2:39:56 PM",
+      "riskItem": "",
+      "businessUnit": {
+        "default": "business-unit - BU",
+        "selectedBU": "Business-Unit - Marketing"
+      },
+      "businessArea": {
+        "default": "Select Option",
+        "selectedBA": ""
+      },
+      "status": {
+        "default": "All",
+        "selectedStatus": ""
+      },
+      "applicabilityStatus": {
+        "selectedApplicableStatus": "",
+        "status": [
+          "Not Applicable",
+          "Defer",
+          "Applicable"
+        ],
+        "applicable": "Applicable",
+        "defer": "Defer",
+        "notApplicable": "Not Applicable",
+        "emerging": "Emerging"
+      },
+      "filters": {
+        "type": {
+          "selectedOption": "Business Unit"
+        },
+        "categories1": {
+          "selectedOption": "Product"
+        },
+        "categories2": {
+          "selectedOption": "test bac 2 9525 01"
+        }
+      },
+      "gridColumns": {
+        "riskItem": "Risk Item",
+        "applicable": "Applicable",
+        "defer": "Defer",
+        "notApplicable": "Not Applicable",
+        "emerging": "Emerging",
+        "businessAreaDefinitions": "Business Area Definitions"
+      }
+    },
+    "addRiskCategory": {},
+    "applicabilityFilter": {},
+    "startRCSAReview": {}
+  },
+  "calculations": {
+    "withDimensions": {
+      "maxLikelihoodImpactValue": "100",
+      "likelihoodImpactValue": "50",
+      "riskLabel": "High",
+      "riskValue": 25,
+      "controlToAdd": "Control Definition (Corrective)",
+      "defaultControlStrength": "Zero 0.0%"
+    },
+    "withControlStrength": {
+      "maxLikelihoodImpact": {
+        "selectedControlStrength": "High 25.0%",
+        "selectedControlStrengthValue": "25.0000",
+        "likelihoodImpactValue": "100",
+        "residualRiskLabel": "Moderate",
+        "residualRiskValue": "18.7500",
+        "currentRiskLabel": "Moderate",
+        "currentRiskValue": "18.7500"
+      },
+      "updatedLikelihoodImpact": {
+        "selectedControlStrength": "High 25.0%",
+        "selectedControlStrengthValue": "25.0000",
+        "likelihoodImpactValue": 50,
+        "residualRiskLabel": "Moderate",
+        "residualRiskValue": "18.7500",
+        "currentRiskLabel": "High",
+        "currentRiskValue": "23.4375",
+        "avgCurrentRiskValue": "23.0938",
+        "controlToAdd": "Control Definition (Corrective)",
+        "calculatedControlStrength": "Calculated (25%)",
+        "linkedControlName": "updated_ctrl_taxanomy"
+      }
+    },
+    "withAssessed":{
+      "defaultControlStrength": "Assessed (18.7500%)",
+      "assessedControlStrengthValue":"18.7500",
+      "addControl":{
+        "subgridControlStrength":"High",
+        "riskLabel":"High",
+        "inherentRiskValue":"25.0000",
+        "residualRiskValue":"20.3125",
+        "currentRiskValue":"25.0000",
+        "calculated":{
+          "selectedControlStrength":"Calculated (25%)",
+          "inherentRiskLabel":"High",
+          "residualRiskLabel":"Moderate",
+          "currentRiskLabel":"High",
+          "controlStrengthValue":"25.0000",
+          "inherentRiskValue":"25.0000",
+          "residualRiskValue":"18.7500",
+          "currentRiskValue":"23.4375"
+        },
+        "medium":{
+          "selectedControlStrength":"Medium 12.0%",
+          "inherentRiskLabel":"High",
+          "residualRiskLabel":"High",
+          "currentRiskLabel":"High",
+          "controlStrengthValue":"12.0000",
+          "inherentRiskValue":"25.0000",
+          "residualRiskValue":"22.0000",
+          "currentRiskValue":"25.0000"
+        }
+      },
+      "linkControl":{
+        "subgridControlStrength":"High",
+        "riskLabel":"High",
+        "inherentRiskValue":"25.0000",
+        "residualRiskValue":"20.3125",
+        "currentRiskValue":"25.0000",
+        "calculated":{
+          "selectedControlStrength":"Calculated (25%)",
+          "inherentRiskLabel":"High",
+          "residualRiskLabel":"Moderate",
+          "currentRiskLabel":"High",
+          "controlStrengthValue":"25.0000",
+          "inherentRiskValue":"25.0000",
+          "residualRiskValue":"18.7500",
+          "currentRiskValue":"23.4375"
+        },
+        "medium":{
+          "selectedControlStrength":"Medium 12.0%",
+          "inherentRiskLabel":"High",
+          "residualRiskLabel":"High",
+          "currentRiskLabel":"High",
+          "controlStrengthValue":"12.0000",
+          "inherentRiskValue":"25.0000",
+          "residualRiskValue":"22.0000",
+          "currentRiskValue":"25.0000"
+        }
+      }
+    }
+  },
+  "filters": {
+    "Actions": {
+      "view Action": {
+        "searchedFor": "Contains",
+        "searchText": ""
+      }
+    },
+    "risk": {
+      "searchedFor": "Contains",
+      "searchText": ""
+    },
+    "CFR/Guidance": {
+      "searchedFor": "Contains",
+      "searchText": ""
+    }
+  },
+  "pivotMode": {
+    "enabled": false,
+    "searchPlaceholder": "Search...",
+    "fields": {
+      "risk": "Risk",
+      "organization": "Organization",
+      "orgNodeType": "Org Node Type",
+      "orgNode": "Org Node",
+      "rdBADefinition": "RD BA Definition",
+      "businessAreaGroup": "Business Area Group",
+      "baType": "BA Type",
+      "baCat1": "BA Cat 1",
+      "baCat2": "BA Cat 2",
+      "businessArea": "Business Area",
+      "riskDefinitionID": "Risk Definition ID",
+      "approach": "Approach",
+      "inherent": "Inherent",
+      "likelihood": "Likelihood",
+      "impact": "Impact",
+      "controls": "Controls"
+    },
+    "rowGroups": [
+      "Risk Level 1",
+      "Risk Level 2"
+    ],
+    "valuesSection": "Values",
+    "dragMessage": "Drag here to aggregate",
+    "columnLabels": {
+      "title": "Column Labels",
+      "dragMessage": "Drag here to set column labels"
+    },
+    "columnsWhenEnabled": {
+      "risk": {
+        "selected": false,
+        "visible": true
+      },
+      "organization": {
+        "selected": false,
+        "visible": true
+      },
+      "orgNodeType": {
+        "selected": false,
+        "visible": true
+      },
+      "orgNode": {
+        "selected": false,
+        "visible": true
+      },
+      "rdBADefinition": {
+        "selected": false,
+        "visible": true
+      },
+      "businessAreaGroup": {
+        "selected": false,
+        "visible": true
+      },
+      "baType": {
+        "selected": false,
+        "visible": true
+      },
+      "baCat1": {
+        "selected": false,
+        "visible": true
+      },
+      "baCat2": {
+        "selected": false,
+        "visible": true
+      },
+      "businessArea": {
+        "selected": false,
+        "visible": true
+      },
+      "riskDefinitionID": {
+        "selected": false,
+        "visible": true
+      },
+      "approach": {
+        "selected": false,
+        "visible": true
+      }
+    }
+  },
+  "actionButtons": {
+    "save": "Save",
+    "saveAndClose": "Save and Close",
+    "cancel": "Cancel"
+  },
+  "rightPanelActions": {
+    "riskCategory": {
+      "addedRiskCategory": "",
+      "options": {
+        "addRiskCategory": {
+          "name": "",
+          "description": ""
+        },
+        "addRiskDefinition": {
+          "name": "",
+          "businessAreaDefinitions": "",
+          "description": ""
+        },
+        "addRiskItem": {},
+        "messages": {}
+      }
+    },
+    "riskDefintion": {
+      "addedRiskDefinition": "",
+      "options": {
+        "details": "Details",
+        "controls": "Controls",
+        "regulationsObligations": "Regulations & Obligations",
+        "inherentRiskProbabilityAssessment": "Inherent Risk Probability Assessment",
+        "inherentRiskImpactAssessment": "Inherent Risk Impact Assessment",
+        "controlEnvironmentAssessment": "Control Environment Assessment",
+        "auditLog": "Audit Log",
+        "takeAction": "Take Action",
+        "messages": "Messages"
+      }
+    }
+  },
+  "gridColumns": {
+    "default": {
+      "group": "Group",
+      "risk": "Risk",
+      "simpleControls": "Simple Controls",
+      "controlStrength": "Control Strength",
+      "controlWeight": "Control Weight",
+      "residualRisk": "Residual Risk",
+      "currentRisk": "Current Risk",
+      "message": "Message",
+      "actions": "Actions"
+    },
+    "withLikelihood": {
+      "group": "Group",
+      "risk": "Risk",
+      "businessArea": "Business Area",
+      "approach": "Approach",
+      "inherentRisk": "Risk",
+      "controls": "Controls",
+      "effectiveness": "Effectiveness",
+      "implemented": "Implemented",
+      "simpleControls": "Simple Controls",
+      "message": "Message",
+      "actions": "Actions"
+    }
+  },
+  "testData": {
+    "sampleRiskCategory": "test risk category",
+    "sampleRiskItem": "Risk Item test 01",
+    "businessUnits": [
+      "business-unit - BU",
+      "business-unit - BU2"
+    ],
+    "businessAreas": [
+      "test business area 001",
+      "Product - ZZS update BA 2025-05-12",
+      "Product - test user ba cat 01"
+    ],
+    "approaches": [
+      "Avoid",
+      "Accept",
+      "Mitigate",
+      "Transfer"
+    ]
+  }
+}

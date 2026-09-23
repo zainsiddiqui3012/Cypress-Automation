@@ -1,0 +1,17 @@
+{
+    "kxiValue": "20",
+    "Left1": "19",
+    "Left2": "15",
+    "Left3": "12",
+    "Right1": "25",
+    "Right2": "30",
+    "Right3": "35",
+
+    "kriScope":"Corporate Risk",
+    "type":"Number",
+    "ownerType":"Single",
+    "viewerType":"Single",
+    "deleteType":"Single",
+    "status":"Active",
+    "measurementPeriod":"Monthly"
+}

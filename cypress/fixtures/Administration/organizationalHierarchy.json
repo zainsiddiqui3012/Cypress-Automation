@@ -1,0 +1,40 @@
+{
+  "saveSuccessMsg": "Organizational Group saved successfully.",
+  "updateSuccessMsg": "Organizational Group updated successfully.",
+  "errorMsg": "Problem(s) in save. Please update the highlighted fields below and try again.",
+  "name": "fqzwzeypdyw",
+  "convertedSuccessMsg": "Converted successfully.",
+  "newName": "Business unit withccxlevlmofmteuvjapdm",
+  "editName": "edit",
+  "buName": "Business unit with",
+  "statusName": "Active",
+  "duplicateMsg": "Name already exists in current hierarchy.",
+  "duplicateBU": "ZZ Sox Parent06-18-2025 2:33:02 PM",
+  "InactiveBU": "Business unit withwithInActiveaSaJx(Inactive)",
+  "location": "CCB",
+  "renameBU": "Business unit withhwcuxluaeli",
+  "categories": [
+    "Military Lending Act (MLA)"
+  ],
+  "multipleLocation": [
+    "testing location",
+    "Testing location 1"
+  ],
+  "singleCategory": "Military Lending Act (MLA)",
+  "requirements": [
+    "[cite1] Requirement1",
+    "[cite2] Requirement2"
+  ],
+  "selectedColor": "#b3bfcb",
+  "singleRequirement": "req",
+  "inactivestatusName": "InActive",
+  "processOwner": "ixkvuobgqi",
+  "single": "Single",
+  "group": "Group",
+  "status": {
+    "active": true
+  },
+  "collapseAll": "Collapse All",
+  "expandAll": "Expand All",
+  "inactive": "Inactive"
+}

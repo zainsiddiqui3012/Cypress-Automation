@@ -1,0 +1,17 @@
+
+[
+ 
+ {
+    "name" : "Add Control Defintion for Negative Impact Successfully",
+    "Search": "Risk- Control Category Automate Feb 20, 2023 4:27:20 PM",
+    "controlDefinitionID": "DefintionID " ,
+    "definitionName": "Negative Impact - Automate Control Definition ",
+    "description": "Automate Control description ",
+    "controlFrequency": "Annually",
+    "controlTypes": "Negative Impact",
+    "controlExecution": "Automated"
+    
+    
+  }
+
+]

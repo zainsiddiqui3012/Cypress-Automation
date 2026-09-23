@@ -1,0 +1,28 @@
+{
+  "natureofChange": "Add Nature Of Change",
+  "changeType": "Add Change Types",
+  "magnitude": "Add Magnitudes",
+  "automatedNatureofChange": "Automated Nature Of Change",
+  "automatedChangeType": "Automated  Change Types",
+  "automatedMagnitude": "Automated  Magnitudes",
+  "actionplanText": "Automated Action Plan Template Instructions",
+  "evaluateImpactText": "Automated Evaluate Impact Template Instructions",
+  "saveChangeType": "Automated  Change TypesMar 11, 2025 5:04:20 PM",
+  "edit": "Edit",
+  "successMsg": "Record Saved Successfully",
+  "deleteMsg": "deleted successfully",
+  "categories": [
+    "Proposed Rule",
+    "Final Rule",
+    "Bulletin",
+    "Mortgagee Letter",
+    "Rule",
+    "Emergency Rule",
+    "Executive Order",
+    "Interim final rule",
+    "Policy Statement",
+    "Circular Letter",
+    "Agenda",
+    "Bill"
+  ]
+}

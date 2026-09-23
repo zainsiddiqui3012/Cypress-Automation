@@ -1,0 +1,36 @@
+[
+  {
+    "riskDefinition":"risk def Jul 31, 2025 1:56:31 PM",
+    "controlType": "Preventative",
+    "control": "Control Definition (preventative)",
+    "successMessage": "Linked Successfully",
+    "effectiveness": "50",
+    "implemented": "50",
+    "weight": "50",
+    "controlStrength": "High",
+    "controlStrengthCalculated": "Calculated (12%)",
+    "scrollRight": "right",
+    "scrollLeft": "left",
+    "controlInstanceRecordStatus": "No record found.",
+    "linkControlInstanceText": "Link Control Instance",
+    "categoryIconLength": 2,
+    "controlFoundAlias":"controlFound"
+  },
+  {
+    "riskDefinition":"Risk Def Aug 4, 2025 7:31:24 PM",
+    "controlType": "Preventative",
+    "control": "updated_ctrl_taxanomy",
+    "successMessage": "Linked Successfully",
+    "effectiveness": "60",
+    "implemented": "60",
+    "weight": "50",
+    "controlStrength": "High",
+    "controlStrengthCalculated": "Calculated (12%)",
+    "scrollRight": "right",
+    "scrollLeft": "left",
+    "controlInstanceRecordStatus": "No record found.",
+    "linkControlInstanceText": "Link Control Instance",
+    "categoryIconLength": 2,
+    "controlFoundAlias":"controlFound"
+  }
+]

@@ -1,0 +1,27 @@
+[
+ 
+    {
+       "name" : "Create an Assessment with group assignee and validation of data for Template Instance 3",
+       "summary" : "Assessment created through automation for Template 3",
+       "assessmentTemplate" : "Template with 3 sections",
+       "assessmentCategory" : "CATEGORY - 01",
+       "description" : "Description added through automation",
+       "statusnew" : "Open",
+        "Recurrence" : "None",
+        "statusInprogress" : "In Progress",
+        "templateDraft_status" : "Draft",
+        "templateSubmit_status": "Submitted",
+        "reviewMessage" : "Assessment Reviewed",
+        "reviewComment" : "Comment added through automation for review",
+        "Question1" : "Does your business unit perform the function act as the receiving depository financial institution in an ACH credit transaction.",
+        "q1Response" : "Yes",
+        "groupAssigneeNamevalidate" : "Bfsi",
+        "userNameGroup":"assessmentbfsi",
+        "userNameGrouppwd":"Test1234",
+        "userNameGroupKey":"bcus",
+        "groupAssigneeName" : "BCUS-Bfsi"
+     }    
+   
+      
+   ]
+   

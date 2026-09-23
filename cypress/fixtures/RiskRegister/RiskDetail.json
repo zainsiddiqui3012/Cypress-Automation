@@ -1,0 +1,95 @@
+{
+  "riskDetail": {
+    "add": {
+      "categoryName": "Risk Cat Oct 10, 2025 4:57:26 PM",
+      "definitionName": "Risk Def Oct 10, 2025 4:58:37 PM",
+      "baseName": "Risk add ",
+      "riskName": "Risk add 10/10/2025 07:43 PM",
+      "riskDescription": "This is a comprehensive risk description with detailed information about the risk scenario and potential impacts.",
+      "simpleControlDescription": "Basic control measures to mitigate this risk including monitoring and preventive actions.",
+      "riskEvents": [
+        "Operational Failure"
+      ],
+      "riskOwner": "kxi User 2",
+      "personsResponsible": [
+        "kxicustomernew",
+        "testbuuser"
+      ],
+      "frequency": {
+        "value": "2",
+        "timesPer": "Year"
+      },
+      "frequencyExplanation": "This risk occurs approximately twice per year based on historical data",
+      "outcome": "Potential financial loss and operational disruption",
+      "outcomeDescription": "Detailed description of the potential outcomes including financial, operational, and reputational impacts.$$@@@",
+      "applicability": "Applicable",
+      "topRisk": true,
+      "managementComments": "Management is aware of this risk and has allocated resources for mitigation strategies.",
+      "context": "Risk context within the current business environment and regulatory landscape",
+      "relativeMagnitude": "insignificiant"
+    },
+    "update": {
+      "baseName": "Risk Updated ",
+      "riskName": "Risk Updated 09/24/2025 07:12:04 PM",
+      "riskDescription": "This is a comprehensive risk description with detailed information about the risk scenario and potential impacts.",
+      "simpleControlDescription": "Basic control measures to mitigate this risk including monitoring and preventive actions.",
+      "riskEvents": [
+        "Operational Failure"
+      ],
+      "riskOwner": "kxi User 2",
+      "personsResponsible": [
+        "kxicustomernew"
+      ],
+      "frequency": {
+        "value": "2",
+        "timesPer": "Year"
+      },
+      "frequencyExplanation": "test This risk occurs approximately twice per year based on historical data",
+      "outcome": "test Potential financial loss and operational disruption",
+      "outcomeDescription": "test Detailed description of the potential outcomes including financial, operational, and reputational impacts.",
+      "applicability": "Applicable",
+      "topRisk": true,
+      "managementComments": "test Management is aware of this risk and has allocated resources for mitigation strategies.",
+      "context": "Risk context within the current business environment and regulatory landscape",
+      "relativeMagnitude": "insignificiant"
+    },
+    "riskItem": {
+      "bu": "BU",
+      "magnitude": "insignificiant",
+      "applicability": "Applicable"
+    },
+    "mandatoryOnly": {
+      "riskName": "Mandatory Fields Only Risk",
+      "applicability": "Applicable"
+    },
+    "applicabilityLevels": [
+      "Applicable"
+    ],
+    "magnitudeLevels": [
+      "insignificiant"
+    ],
+    "monetaryImpact": {
+      "positive": "50000",
+      "negative": "-25000"
+    },
+    "richTextContent": "<p><strong>Bold text</strong> with <em>italic formatting</em> and <u>underlined content</u></p><ul><li>Bullet point 1</li><li>Bullet point 2</li></ul>",
+    "specialCharacters": "Special chars:$$@#$%^&*()_+{}|:",
+    "simpleControlDescription": "Control description with formatting and special characters @#$%",
+    "sites": [
+      "Main Office",
+      "Branch Office",
+      "Remote Location"
+    ],
+    "personsResponsible": [
+      "kxicustomernew"
+    ],
+    "largeFormattedText": "<p>This is a large formatted text with multiple paragraphs.</p><p><strong>Bold section</strong> followed by normal text.</p><ol><li>Numbered list item 1</li><li>Numbered list item 2</li></ol><p>Final paragraph with <em>emphasis</em>.</p>",
+    "alternateDefinition": "Check Data",
+    "alternativeCategory": "Risk Category",
+    "validationErrors": {
+      "requiredField": "This field is required",
+      "negativeFrequency": "Enter a positive number up to 10 digits",
+      "emptyFrequency": "Enter a positive number up to 10 digits"
+    }
+  }
+}

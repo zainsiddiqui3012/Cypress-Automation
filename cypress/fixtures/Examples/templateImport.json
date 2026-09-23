@@ -1,0 +1,97 @@
+{
+  "Instructions": [
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Each column header has the validation rules that will be applied to the column as Notes",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "This import template will ONLY support up to eight (8) choices for each mulit-select question.",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "The “Question Bank Row Id” against each question must be mentioned as per the row number at excel for Question Bank name mentioned in Question Bank tab i.e. Row number would be >=2 as Row number 1 is the header for  “Question Bank”",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Name field in templates tab can be same.",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Question Bank tab will be auto populated with all question banks available on the costumer space at the time of export download sample file.",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Incorrect data in optional fields will result in successful import but with warning generating in email with issues in columns",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "‘Template RowNo’ and ‘Template Id’ are used to link sections with existing or new templates. At a time only one of these columns should have a value and precedence will be given to ‘Template RowNo’. ‘Template Id’ will be pointed to an existing templates in our db.",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Library Id available on each tab's screen on UI should be auto populated from backend with it's respective Id and will not become part of this import template.",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Pre-requisites for importing Assessment template at customer Space",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Setup Question Banks",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Setup Source",
+      "": ""
+    },
+    {
+      "This import template is only intended to be used for importing surveys of type 'Assessment, OEP Assessment, DAP Assessment, Vendor Assessment'": "Setup Library",
+      "": ""
+    }
+  ],
+  "QuestionBanks": [
+    {
+      "Id": 0,
+      "Name*": "update qb kkcmxkrhdqteaxd",
+      "Frameworks*": "ZZ 2025-07-14 14:10:35",
+      "Description": "test description",
+      "Content Library*": "test Library jsyco",
+      "Type*": "Assessment"
+    }
+  ],
+  "AssessmentTemplates": [
+    {
+      "Id": 0,
+      "Name*": "test import oehgpknl",
+      "Status*": "Active",
+      "Type*": "Single Party Assessment",
+      "Content Library*": "test Library jsyco",
+      "Assessment ID*": "oehgpknl",
+      "Site": "",
+      "Tags": "#tag-1, #tag2"
+    }
+  ],
+  "Sections": [
+    {
+      "Id": 0,
+      "Section Name*": "Section",
+      "Description": "",
+      "Total questions of high risk*": "1",
+      "Total questions of medium risk*": "1",
+      "Take action from*": "Section",
+      "Parent Section Row No": "",
+      "Template Row No*": "2",
+      "Template Id": ""
+    }
+  ],
+  "QuesBankMapping": [
+    {
+      "QuestionBank Row No*": "2",
+      "Sections Row No*": "2"
+    }
+  ]
+}

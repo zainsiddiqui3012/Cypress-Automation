@@ -1,0 +1,34 @@
+
+[
+ 
+    {
+       "name" : "Edited Control Strength Dimensions Successfully",
+       "Lable1": "Rare = 10",
+       "Lable1_Value": "10",
+       "Guidance1": "Testing -10",
+
+       "Lable2": "Low = 20",
+       "Lable2_Value": "20",
+       "Guidance2": "Testing -20",
+
+       "Lable3": "Moderate = 30",
+       "Lable3_Value": "30",
+       "Guidance3": "Testing -30",
+
+       "Lable4": "Certain =40",
+       "Lable4_Value": "40",
+       "Guidance4": "Testing -40",
+
+       "Lable5": "Almost Certain = 60",
+       "Lable5_Value": "60",
+       "Guidance5": "Testing -60"     
+
+
+
+     
+   
+     }    
+   
+      
+   ]
+   

@@ -1,0 +1,28 @@
+[
+    {
+       "name" : "Create and Edit an Issue management form with Un Assignee",
+       "summary" : "Issue Management form For Un Assignee",
+       "IssueSource" : "Auto Created",
+       "Agency_Entities" : "Auto Created",
+       "typeOfIssue" : "Auto Created",
+       "issueDescription" : "Issue created through automation for Un assignee",
+       "audit_exam" : "No it is not tied to an audit exam",
+       "responsibleDepartment" : "Turkey",
+       "issueOwner" : "Issue owner",
+       "rootCause" : "Controls",
+       "rootCauseDescription" : "Root cause description added through automation",
+       "submitterName" : "Automation user",
+       "repeatFinding" : "No",
+       "priority" : "Low",
+       "assigneeType" : "Single",
+       "projectNumber" : "1",
+       "subjectArea" : "CATEGORY - 02",
+       "severity" : "Low",
+       "taskType" : "Issue Management",
+       "assigneeName" : "saadreg1",
+       "reporter" : "cmsautomationuser001",
+       "description" : "Issue created through automation for single assignee",
+       "comment" : "Comment added through automation"
+     }    
+    
+]

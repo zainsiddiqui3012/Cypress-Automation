@@ -1,0 +1,74 @@
+{
+  "validTestData": {
+    "rcsaReview": "DOCS-5",
+    "selectedBu":"BU Automation for RCSA 1 - 14-10",
+    "selectedBU1":"Legal Division",
+    "businessUnits": [
+      "Business-Unit - Legal Division",
+      "Business-Unit - BU Automation for RCSA 1 - 14-10"
+    ],
+    "dateRange": {
+      "startDate": "10/01/2025",
+      "endDate": "10/31/2025",
+      "noData":{
+        "startDate": "01/01/2029",
+        "endDate": "01/31/2029"
+      }
+    },
+    "ipAddress": "110.93.227.127",
+    "user": "Admin Doc"
+  },
+  "testScenarios": {
+    "positive": [
+      {
+        "name": "Valid RCSA Review and Date Range",
+        "rcsaReview": "DOCS-5",
+        "dateRange": { "start": "10/01/2025", "end": "10/31/2025" }
+      },
+      {
+        "name": "Multiple Business Units",
+        "rcsaReview": "DOCS-5",
+        "businessUnits": ["Legal Division", "BU Automation"],
+        "dateRange": { "start": "10/01/2025", "end": "10/31/2025" }
+      }
+    ],
+    "negative": [
+      {
+        "name": "Missing Date Range",
+        "rcsaReview": "DOCS-5",
+        "expectedError": "Date Range is required"
+      },
+      {
+        "name": "Invalid Date Range",
+        "rcsaReview": "DOCS-5",
+        "dateRange": { "start": "10/31/2025", "end": "10/01/2025" },
+        "expectedError": "From Date must be less than or equal to To Date"
+      },
+      {
+        "name": "Missing RCSA Review",
+        "dateRange": { "start": "10/01/2025", "end": "10/31/2025" },
+        "expectedError": "Please select RCSA Review"
+      }
+    ]
+  },
+  "expectedResults": {
+    "auditResult": {
+      "categoryName": "Compliance Risk",
+      "risk": "Risk Def Automation 1 for RCSA - 14-10",
+      "bu": "BU Automation for RCSA 1 - 14-10",
+      "selectedBU1":"Legal Division",
+      "fieldName": "Review Status",
+      "reviewed":"Reviewed",
+      "change": "Not Reviewed → Reviewed",
+      "user": "Admin Doc",
+      "filterIndex":{
+        "bu":5,
+        "columns":2
+      }
+    }
+  },
+  "errors":{
+    "mandatoryError":"Please select any task (optional) or set created date (required) and try again.",
+    "invalidDateError":"Invalid Date Range"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "sheetNames": [
+    "Instructions",
+    "KxI Definitions",
+    
+    "KxI Category(ies)",
+    "Risk Category(ies)",
+    "Risk Definitions",
+    "Risk Instances",
+    "Risk Appetite",
+    "Metric",
+    "Business Units"
+  ]
+,
+"kxidef":{
+  "id": 6220
+}
+}

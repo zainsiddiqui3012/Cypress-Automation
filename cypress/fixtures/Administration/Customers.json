@@ -1,0 +1,125 @@
+{
+  "addCustomer": {
+    "baseName": "test Customer",
+    "resellerName": "update test res dusntzzm",
+    "name": "test Customer owsdlzke",
+    "key": "owsdlzke",
+    "existKey": "KXICUST",
+    "instanceType": "Test/QA",
+    "customerCategory": "test category",
+    "customPredict360URL": "",
+    "logo": {
+      "validLogo": "",
+      "invalidFormatLogo": "cypress/SampleUploadFiles/invalidFormatFile.ppt",
+      "sizeExceedFile": "cypress/SampleUploadFiles/exceedSize.png"
+    },
+    "active": true,
+    "internal": false,
+    "externalAuthValue": "AD Federation Services",
+    "externalProvider": "provider name",
+    "passwordExpiration": {
+      "enablePasswordExpiration": true,
+      "days": "10"
+    },
+    "modules": [
+      "Document Management",
+      "Administration",
+      "Risk Management",
+      "Qualification Management",
+      "Audit Management"
+    ],
+    "subModule": {
+      "isSubModule": true,
+      "subModuleNames": [
+        "Risk and Control Register"
+      ]
+    },
+    "isTemplate": true,
+    "industries": [
+      "Banking and Finance"
+    ],
+    "email": "automation-bitbucket-user@360factors.com",
+    "invalidEmail": "automation-bitbucket-user"
+  },
+  "updateCustomer": {
+    "instanceType": "Sandbox",
+    "customerCategory": "updated Customer Category",
+    "customPredict360URL": "",
+    "logo": {
+      "validLogo": "cypress/SampleUploadFiles/validFile.png"
+    },
+    "active": true,
+    "internal": false,
+    "externalAuthValue": "Azure Active Directory",
+    "externalProvider": "updated provider name",
+    "passwordExpiration": {
+      "enablePasswordExpiration": false,
+      "days": "80"
+    },
+    "modules": [
+      "Regulations",
+      "API Integration",
+      "PFMR Management",
+      "KxI Engine",
+      "Learning Management",
+      "Third Party Management",
+      "Assessment",
+      "Vendor Risk Management",
+      "Compliance Management",
+      "Performance Management",
+      "Compliance Management System"
+    ],
+    "subModule": {
+      "isSubModule": true,
+      "subModuleNames": [
+        "Manage Detailed Controls",
+        "Risk Review",
+        "Issue Management",
+        "Complaint Management",
+        "Regulatory Change Feed Register"
+      ]
+    },
+    "industries": [
+      "Construction"
+    ],
+    "email": "automation-bitbucket-user@360factors.com"
+  },
+  "customerProfileData": {
+    "isRequired": true,
+    "contentLibrary": {
+      "isRequired": false,
+      "contentSourceName": "test Source cyeww",
+      "contentSourceDescription": "",
+      "contentLibraryName": "test Library jsyco",
+      "contentLibraryDescription": ""
+    },
+    "riskTaxanomy": {
+      "isRequired": true,
+      "riskTaxanomyName": "test Risk Taxonomy qdaqcqxu",
+      "contentLibraryName": "test Library jsyco",
+      "riskTaxanomyDescription": ""
+    },
+    "controlTaxanomy": {
+      "isRequired": true,
+      "controlTaxanomyName": "test Control Taxonomy plnusudg",
+      "contentLibraryName": "test Library jsyco",
+      "controlTaxanomyDescription": ""
+    },
+    "questionBank": {
+      "isRequired": true,
+      "questionBankName": "update qb edzgaslkcyirwum"
+    },
+    "assessment": {
+      "isRequired": true,
+      "assessmentName": "test template hbonnbik"
+    }
+  },
+  "mendatoryFieldErrors": [
+    "Name cannot be changed once the account is created.",
+    "You must specify a unique Key, between 3 to 10 letters long. It prefixes each item in your account. It cannot be changed once the account is created."
+  ],
+  "saveError": "Problem(s) in save. Please update the highlighted fields below and try again.",
+  "existKeyError": "Key already exist.",
+  "noModuleSelectError": "Problem(s) in save. Please select atleast one module.",
+  "fileExceedSizeError": "Error Uploading Logo. File size exceeds allowed limit of 150 kb"
+}

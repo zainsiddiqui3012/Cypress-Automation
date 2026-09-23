@@ -1,0 +1,21 @@
+{
+  "newSection": "Verify new section Global KxI Manager will be added into the existing KxI Engine on Add/Edit Role Permission screen.",
+  "oldSection": "Verify KXI Definition Management section for KXI Engine Roles Permission will be removed. ",
+  "readPermission": "Verify if Global KxI Manager has read permission then it will be only allowed to view tasks, KxI Definitions & Data instead of the owner. ",
+  "weightNotChanged": "Verify if Global KxI Manager has read permission then it won't be allowed to update weight on linked KXI definitions on risk insight screen.",
+  "createPermission": "Verify if Create rights are assigned to Global KxI Manager then by default read+create+updated permissions should be selected in add/edit role permisson screen.",
+  "unselectReadPermission": "Verify if user selects create then read+create+update will be select and if user unselects read option then create & update should also get unselect automatically on add/edit role screen.",
+  "userBeAbletoCreate": "Verify user will be able to create KxI Definitions , KxI Data, Tasks instead who the owner or assignee is if create permissions are assigned to Global KxI Manager.",
+  "deletePermission": "Verify if user selects Delete  option on Global KxI Manager role permission section then read+create+update+delete should be selected by default in KxI Engine on add/edit role screen.",
+  "uncheckDelete": "Verify if user unselect create/update then delete option should automatically unselect on add/edit role screen in KxI Engine.",
+  "disableUpdate": "Verify if user selects create then update will be selected automatically and it will be read only so that user can't edit update selection. ",
+  "uncheckUpdate": "Verify if user unselects create then update should also unselect automatically.",
+  "userBeAbletoDelete": "Verify if Delete is permission is given to Global KxI Manager then user will be able to delete task, KxI Definition & Data",
+  "kxiValue": "20",
+  "Left1": "19",
+  "Left2": "15",
+  "Left3": "12",
+  "Right1": "25",
+  "Right2": "30",
+  "Right3": "35"
+}

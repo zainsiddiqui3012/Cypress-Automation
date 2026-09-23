@@ -1,0 +1,13 @@
+[
+ 
+    {
+      "name" : "Validate data of Assessment with group assignee after creation",
+      "assessmentTemplate" : "Template with 2 section",
+      "description" : "Description added through automation",
+       "Recurrence" : "None",
+       "groupAssigneeName" : "BCUS-Bfsi"
+     }    
+   
+      
+   ]
+   

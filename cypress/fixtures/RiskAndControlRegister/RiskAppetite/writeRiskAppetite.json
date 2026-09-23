@@ -1,0 +1,13 @@
+{
+  "riskCategory": {
+    "riskCategoryID": "Automation Risk Category ID RIHN5wMl5y",
+    "categoryName": "Automation Category Name RIHN5wMl5y",
+    "categoryDescription": "Automation Category Description RIHN5wMl5y"
+  },
+  "riskDefinition": {
+    "riskDefinitionID": "Automation Risk Definition ID ytqWnbPp9U",
+    "definitionName": "Automation Definition Name ytqWnbPp9U",
+    "definitionDescription": "Automation Definition Description ytqWnbPp9U"
+  },
+  "statement": "Risk Appetite Jul 28, 2025 7:17:33 PM Jul 28, 2025 7:17:33 PM Edit"
+}

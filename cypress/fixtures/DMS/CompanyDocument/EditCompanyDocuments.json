@@ -1,0 +1,17 @@
+{
+  "documentName": "KRI_Data_Template",
+  "folderName": "kkxiiedqirliofp",
+  "document": "document",
+  "folder": "folder",
+  "types": {
+    "document": "document",
+    "folder": "folder"
+  },
+  "initiateWorkflow": "Initiate Workflow",
+  "versionHistory": "Version History",
+  "approved": "Approved",
+  "draft": "Draft",
+  "sendForApproval": "Send For Approval",
+  "inReview": "In Review",
+  "open": "open"
+}

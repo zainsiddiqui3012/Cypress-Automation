@@ -1,0 +1,18 @@
+{
+  "itemFullName": "Issue severity name 4xBNJmOz2oHbvzP",
+  "description": "This is description",
+  "fieldTypeTextArea": "textArea",
+  "statusActive": "Active",
+  "statusInActive": "Inactive",
+  "statusSeveritySimple": "Simple",
+  "statusSeverityExtended": "Extended",
+  "fieldTypeSelect": "select",
+  "successfulStatus": "Record Saved Successfully",
+  "deletToasterText": "Complaint Issue Type deleted successfully.",
+  "validationErrorToaster": "already exists in the system.",
+  "validationErrorToasterForSeverity": "Problem in saving Severity.",
+  "validationErrorEmptyToaster": "Empty record exist",
+  "timeOut": 15000,
+  "lengthOfRecord": "1",
+  "delay": 10
+}

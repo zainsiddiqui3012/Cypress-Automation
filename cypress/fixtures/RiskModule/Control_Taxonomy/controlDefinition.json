@@ -1,0 +1,17 @@
+
+[
+ 
+ {
+    "name" : "Add Control Defintion Successfully",
+    "Search": "Risk- Control Category Automate Feb 20, 2023 4:27:20 PM",
+    "controlDefinitionID": "DefintionID " ,
+    "definitionName": "Automate Control Definition ",
+    "description": "Automate Control description ",
+    "controlFrequency": "Annually",
+    "controlTypes": "Containment",
+    "controlExecution": "Automated"
+    
+    
+  }
+
+]

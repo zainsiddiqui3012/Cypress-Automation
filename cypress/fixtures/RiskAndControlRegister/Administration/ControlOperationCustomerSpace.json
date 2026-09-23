@@ -1,0 +1,14 @@
+{
+  "controlOperationBtn": "Control Operation",
+  "emptyMsg": "Empty record exist",
+  "successMsg": "Record Saved Successfully",
+  "controlDefBtn": "Control Definition",
+  "controlDefCategory": "Control Definition Categories",
+  "controlOperation":"Control Operations",
+  "noDataAvailable": "No Rows To Show",
+  "dataExistMsg": "Data exists in the grid.",
+  "length": "length",
+  "invalidCategory":"Invalid Category",
+  "noneSpaceControlOperation":"Control Operation1-RESELLER",
+  "inactiveStatus": "Inactive"
+}

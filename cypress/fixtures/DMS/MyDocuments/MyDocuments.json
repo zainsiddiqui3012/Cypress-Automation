@@ -1,0 +1,40 @@
+{
+  "errorMessages": {
+    "emptyField": "Problem(s) in save. Please update the highlighted fields below and try again."
+  },
+  "folders": {
+    "newFolder": "Test Folder",
+    "subfolder": "Sub Folder",
+    "renamedFolder": "Renamed Folder"
+  },
+  "files": {
+    "testFile": "testing",
+    "deleteFile": "TestZDelete",
+    "expirationFile": "TestExpiration",
+    "tagFile": "TestTags",
+    "moveFile": "TestMoveFile",
+    "trashFile": "TestTrashDoc",
+    "trashCompanyFile": "TestTrashCompanyDoc"
+  },
+  "uploadFilepaths": {
+    "testFilePath": "cypress/attachment/testing.txt",
+    "deleteFilePath": "cypress/attachment/TestZDelete.txt",
+    "expirationFilePath": "cypress/attachment/TestExpiration.txt",
+    "tagFilePath": "cypress/attachment/TestTags.txt",
+    "moveFilePath": "cypress/attachment/TestMoveFile.txt",
+    "trashFilePath": "cypress/attachment/TestTrashDoc.csv",
+    "trashCompanyFilePath": "cypress/attachment/TestTrashCompanyDoc.csv"
+  },
+  "tags": ["Important", "Review", "Archive"],
+  "expirationDate": "2025-12-31",
+  "toastMsgs": {
+    "docPin": "Document pinned successfully",
+    "docUnpin": "Document pin removed successfully.",
+    "fileUploaded": "File uploaded",
+    "docMove": "Document move successfully",
+    "expirationSet": "Expiration set successfully",
+    "folderMoved": "Folder move successfully"
+  },
+  "mainModuleName": "Document Management",
+  "navModuleName": "Trash"
+}

@@ -1,0 +1,29 @@
+{
+  "taskName": "kxi Regular TaskAug 18, 2025 7:10:47 PM",
+  "dueDate": "08/28/2025",
+  "createdDate": "08/18/2025",
+  "summaryFieldCharLimit": "235",
+  "watcherUser": "izzah.tahir@360factors.com",
+  "newAssignee": "dev user1",
+  "commentText": "This is a test comment for Task",
+  "validateCommentText": "This is a test comment for Task 2",
+  "updatedTask": {
+    "summary": "updated summary",
+    "description": "updated description",
+    "priority": "High",
+    "category": "Updated Category",
+    "businessUnit": "Updated Business Unit",
+    "site": "updated Site Name",
+    "recurrence": "None",
+    "startStatus": "Start Progress",
+    "inprogressStatus": "In-Progress"
+  },
+  "fieldNames": {
+    "summary": "Summary",
+    "assignee": "Assignee",
+    "dueDate": "Due Date",
+    "status": "Status",
+    "createdBy": "Created By",
+    "created": "Created"
+  }
+}

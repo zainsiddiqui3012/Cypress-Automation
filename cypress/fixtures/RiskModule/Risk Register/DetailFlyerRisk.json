@@ -1,0 +1,20 @@
+
+[
+ 
+ {
+    "name" : "Details Flyer from Risk Register",
+    "RiskInstanceDescription": "Edited Risk Instance Description from Deatil flyer ",
+    "PersonsResponsible": "Automation",
+    "Frequency": "123",
+    "TimesPer": "Month",
+    "FrequencyExplanation": "Edited from Flyer Frequency Explanation ",
+    "Outcome": "Edited Outcome from Flyer ",
+    "OutcomeDescription": "Edited Outcome Description from flyer ",
+    "ManagementComments": "Edited Management Comments from flyer ",
+    "Context": "Edited Context from flyer "
+
+  
+  }    
+
+   
+]

@@ -1,0 +1,245 @@
+{
+  "generateToken": {
+    "request": {
+      "method": "POST",
+
+      "requestBody": {
+        "username": "kxicustomernew",
+        "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+        "customer_code": "CUSTKXI",
+        "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+      }
+    }
+  },
+  "addKXIData": {
+    "name": "Add kxi data positive case",
+
+    "request": {
+      "method": "POST",
+
+      "failOnStatusCode": false,
+      "requestBody": {
+        "sample_value": 20,
+        "sample_date": "12/30/2024",
+        "management_comment": "",
+        "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+        "kxi_definition_id": 6915,
+        "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+      }
+    },
+    "response": {
+      "body": {
+        "status": 201,
+        "id": 1070357,
+        "kxi_definition_id": 6915
+      }
+    }
+  },
+  "addDataNagativeCase": [
+    {
+      "name": "Check Null Kxi Value",
+      "request": {
+        "method": "POST",
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": "",
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+          "kxi_definition_id": 8061,
+          "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 09:12:31",
+            "message": "Validation error",
+            "debug_message": null,
+            "sub_errors": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Check Empty Sample Date",
+      "request": {
+        "method": "POST",
+
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "",
+          "management_comment": "",
+          "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+          "kxi_definition_id": 8061,
+          "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+        }
+      },
+      "response": {
+        "statusCode": 409,
+        "body": {
+          "apierror": {
+            "status": "CONFLICT",
+            "timestamp": "12/30/2024 09:15:15",
+            "message": "Database error",
+            "debug_message": "could not execute statement [Column 'sampleDate' cannot be null] [insert into KriData (comments,createdBy,createdDate,customerId,kriDefinationId,isDeleted,kriValue,modifiedBy,modifiedDate,sampleDate) values (?,?,?,?,?,?,?,?,?,?)]",
+            "sub_errors": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Invalid user key",
+      "request": {
+        "method": "POST",
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "9e337e522594c07ccb65f32576b567b614de6b",
+          "kxi_definition_id": 8061,
+          "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 09:17:05",
+            "message": "User with userKey:9e337e522594c07ccb65f32576b567b614de6b is NOT allowed",
+            "debug_message": null,
+            "sub_errors": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Check Empty User key",
+      "request": {
+        "method": "POST",
+
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "",
+          "kxi_definition_id": 8061,
+          "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 09:18:21",
+            "message": "Validation error",
+            "debug_message": null,
+            "sub_errors": [
+              {
+                "object": "kxiDataRequest",
+                "field": "userKey",
+                "message": "user_key cannot be null or empty",
+                "rejected_value": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Check Invalid user Cutomer API key",
+      "request": {
+        "method": "POST",
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+          "kxi_definition_id": 8061,
+          "customer_api_key": "39747c73716f6d5c386e6257746f13100619:c1632f038aa03d7f10d4644d2c4bc5"
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 09:20:44",
+            "message": "customerApiKey:39747c73716f6d5c386e6257746f13100619:c1632f038aa03d7f10d4644d2c4bc5 is invalid",
+            "debug_message": null,
+            "sub_errors": null
+          }
+        }
+      }
+    },
+    {
+      "name": "Check Empty Cutomer Api key",
+      "request": {
+        "method": "POST",
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+          "kxi_definition_id": 8061,
+          "customer_api_key": ""
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 09:22:12",
+            "message": "Validation error",
+            "debug_message": null,
+            "sub_errors": [
+              {
+                "object": "kxiDataRequest",
+                "field": "customerApiKey",
+                "message": "customer_api_key cannot be null or empty",
+                "rejected_value": ""
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "name": "Check Invalid Definition ID",
+      "request": {
+        "method": "POST",
+        "failOnStatusCode": false,
+        "requestBody": {
+          "sample_value": 20,
+          "sample_date": "12/30/2024",
+          "management_comment": "",
+          "user_key": "93e1b9daf42a959335827c284972c0886f48d673",
+          "kxi_definition_id": 1000,
+          "customer_api_key": "6d767578293333083f30330c7b6f0b5613013a0211:7399e4ed425c9d8028143520c1f6decd"
+        }
+      },
+      "response": {
+        "statusCode": 400,
+        "body": {
+          "apierror": {
+            "status": "BAD_REQUEST",
+            "timestamp": "12/30/2024 10:21:41",
+            "message": "The requested definitionId not exists in your customer space.",
+            "debug_message": null,
+            "sub_errors": null
+          }
+        }
+      }
+    }
+  ]
+}

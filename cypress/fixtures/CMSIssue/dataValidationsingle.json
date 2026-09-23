@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Data Validation for Single Assigne Issue Management Form",
+        "summary": "Issue Management form For Single Assignee",
+        "IssueSource": "Auto Created",
+        "Agency_Entities": "Entity 01",
+        "typeOfIssue": "Auto Created",
+        "issueDescription": "Issue created through automation for single assignee",
+        "audit_exam": "No it is not tied to an audit exam",
+        "responsibleDepartment": "Turkey",
+        "issueOwner": "Issue owner",
+        "rootCause": "Controls",
+        "rootCauseDescription": "Root cause description added through automation",
+        "submitterName": "Automation user",
+        "repeatFinding": "No",
+        "priority": "Low",
+        "assigneeType": "Single",
+        "projectNumber": "1",
+        "subjectArea": "CATEGORY - 02",
+        "severity": "Low",
+        "taskType": "Issue Management",
+        "assigneeName": "saad bfsi",
+        "reporter": "CMS Automation"
+    }
+]

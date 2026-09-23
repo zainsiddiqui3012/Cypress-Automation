@@ -1,0 +1,54 @@
+{
+  "Instructions": [
+    {
+      "Business Area Import Template": "Use this template to import Business Areas. Each column header describes the required data."
+    },
+    {
+      "Note": "Fields marked with * are mandatory."
+    }
+  ],
+  "Risk Taxonomy": [
+    {
+      "Id": "",
+      "Name*": "Risk Taxonomy Import tiwriwpo",
+      "Description": "Description",
+      "Content Library*": "test Library jsyco",
+      "Status*": "Active"
+    }
+  ],
+  "Risk Category": [
+    {
+      "Id": "",
+      "Name*": "",
+      "Description": "",
+      "Parent Risk Category Row no": "",
+      "Parent Risk Category Id": "",
+      "Risk Taxonomy Row No*": "",
+      "Risk Taxonomy Id": "",
+      "Risk Category ID*": ""
+    }
+  ],
+  "Risk Definition": [
+    {
+      "Id": "",
+      "Name*": "",
+      "Description": "",
+      "Status*": "",
+      "Parent Risk Category Row no": "",
+      "Parent Risk Category Id": "",
+      "Risk Definition Id*": "",
+      "Business Area Definitions ID(s)": ""
+    }
+  ],
+  "Business Area Definitions": [
+    {
+      "ID": "",
+      "Name": "",
+      "Description": "",
+      "Type": "",
+      "Business Area Category 1": "",
+      "Business Area Category 2": "",
+      "Content Library": ""
+    }
+  ]
+}

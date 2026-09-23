@@ -1,0 +1,76 @@
+{
+  "add": {
+    "name": "Test Risk Type",
+    "description": "This is a comprehensive test risk type description for validation testing"
+  },
+  "update": {
+    "name": "Updated Test Risk Type",
+    "description": "This is an updated description for testing edit functionality with helper methods"
+  },
+  "existing": {
+    "riskAssessment": "Risk Assessment",
+    "meeting": "Meeting",
+    "audit": "Audit",
+    "operationalLossEvent": "Operational Loss Event"
+  },
+  "validation": {
+    "emptyName": "",
+    "maxCharacters": 255,
+    "requiredFieldMessage": "Problem(s) in save. Please update the highlighted fields below and try again.",
+    "duplicateNameMessage": "Event type name already exists.",
+    "helpText": "Please enter no more than 255 characters"
+  },
+  "toastMessage": {
+    "added": "Event type saved successfully",
+    "update": "Risk Type updated successfully",
+    "delete": "Risk Type(s) deleted successfully",
+    "validationError": "Problem(s) in save. Please update the highlighted fields below and try again",
+    "duplicateError": "Event type name already exists."
+  },
+  "testData": {
+    "prefixes": {
+      "add": "AutoAdd",
+      "edit": "AutoEdit",
+      "validation": "AutoValidation",
+      "search": "AutoSearch",
+      "nameOnly": "NameOnly",
+      "cancelTest": "CancelTest",
+      "closeTest": "CloseTest",
+      "editTest": "EditTest",
+      "editedName": "EditedName",
+      "formReset": "FormReset",
+      "tableRefresh": "TableRefresh",
+      "methodTest": "MethodTest"
+    },
+    "descriptions": {
+      "standard": "Standard test description for automation testing",
+      "original": "Original description for editing",
+      "updated": "Updated description for testing edit functionality",
+      "specialChars": "Description with special chars: !@#$%^&*()",
+      "longDescription": "This is a very long description that will be used to test the maximum character limit validation in the description field"
+    }
+  },
+  "search": {
+    "fullName": "Operational Loss Event",
+    "filterName": "Operational Loss Event",
+    "caseInsensitive": "operational loss event",
+    "noMatching": "xyz123",
+    "partialName": "Meet",
+    "mixedCase": "mEetiNg",
+    "noResults": "xyz123nonexistent",
+    "specialChars": "@#$%^&*()",
+    "cancelFilter": "Cancel",
+    "blankFilter": ""
+  },
+  "pagination": {
+    "recordsPerPage": ["5", "10", "15", "20", "-1"],
+    "defaultRecords": "5",
+    "infoTexts": {
+      "five": "5",
+      "ten": "10",
+      "fifteen": "15",
+      "twenty": "20",
+      "all": "All"
+    }
+  }
+}

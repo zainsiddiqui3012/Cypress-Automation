@@ -1,0 +1,17 @@
+{
+  "dropdownValue": "KPI",
+  "dropdownValue2": "user02-bank2",
+  "targetValue": 70,
+  "triggerLevels": {
+    "level1": 10,
+    "level2": 20,
+    "level3": 30
+  },
+  "messages": {
+    "noRowsText": "No Rows To Show",
+    "modalTitle": "Add KxI Definition",
+    "toastSuccess": "Saved Successfully",
+    "createDefKxiBtn": "Create a KRI for Risk Definition",
+    "createInstanceKxiBtn": "Create a KRI for Risk Instance"
+  }
+}

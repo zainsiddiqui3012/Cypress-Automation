@@ -1,0 +1,53 @@
+{
+  "Instructions": [
+    {
+      "Tabs": "Description"
+    },
+    {
+      "Control Category": "This tab consists of all the fields available on UI where user can create control categories under control taxonomy separately or can create category as a sub category as well."
+    },
+    {
+      "Control Definition": "This tab consists of all the fields available on UI where user can create control definition as a child of control category (parent)."
+    }
+  ],
+  "Control Category": [
+    {
+      "Id": "",
+      "Name*": "cat name10/10/2025 11:42 AM",
+      "Parent Control Category Row No": "",
+      "Parent Control Category Id": "",
+      "Control Category ID": ""
+    }
+  ],
+  "Control Definition": [
+    {
+      "Id": "",
+      "Name*": "",
+      "Description": "",
+      "Control Types*": "",
+      "Control Execution*": "",
+      "Optimal Role": "",
+      "Comments": "",
+      "Control Operation": "",
+      "Control Definition Category": "",
+      "Control Frequency*": "",
+      "Primary Control": "",
+      "Prevent Fraud": "",
+      "Parent Control Category Row No*": "",
+      "Parent Control Category Id": "",
+      "Control Definition Id": "",
+      "Design Assessment ID": "",
+      "Operating Effectiveness Assessment ID": "",
+      "Library Control Definition ID": "",
+      "Content Library": ""
+    }
+  ],
+  "Assessment Templates": [
+    {
+      "Id": "",
+      "Name": "",
+      "Content Libraries": "",
+      "Type": ""
+    }
+  ]
+}

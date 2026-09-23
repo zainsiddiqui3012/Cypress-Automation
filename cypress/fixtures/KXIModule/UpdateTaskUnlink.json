@@ -1,0 +1,8 @@
+{
+  "unlinkPopupMessage": "This action will unlink the KxI Definition from this task and all future iterations of this task. Would you like to proceed?",
+  "unlinkSuccessfulToaster": "KxI Definition Unlink Successfully.",
+  "buttonLabelYes":"Yes",
+  "buttonLabelNo":"No",
+  "verifyManualDataEntryZero":0,
+  "verifyManualDataEntryOne":1
+}

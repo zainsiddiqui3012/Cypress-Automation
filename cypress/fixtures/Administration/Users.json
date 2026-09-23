@@ -1,0 +1,62 @@
+{
+  "addUser": {
+    "firstName": "test Automation ",
+    "lastName": "User",
+    "email": "automation-bitbucket-user@360factors.com",
+    "phone": "+92123455853",
+    "invalidPhone": "+932hsdhadh$1132",
+    "userName": "demo",
+    "status": {
+      "isActive": "N/A",
+      "isInActive": true,
+      "isDisabled": false
+    },
+    "reseller": "360factors",
+    "customer": "First National Bank of Alpine",
+    "role": [
+      "DMS Access","Document Management","DMS Read","All Access","Customer Admin"
+    ],
+    "kxiUserRoles": [
+      "Global Risk Manager"
+    ],
+    "organizationalHierarchy": "zfklmadskbs",
+    "userGroup": [
+      "Complaint Group"
+    ],
+    "landingUrl": "Default Landing Url",
+    "kxiCustomerUserGroup": [
+      "ZZ UserGroup_2025-10-20_05:04:53"
+    ]
+  },
+  "updateUser": {
+    "firstName": "updated Demo9$ ",
+    "lastName": "User9$ ",
+    "email": "automation-bitbucket-user@360factors.com",
+    "phone": "+92127734234",
+    "userName": "demo",
+    "status": {
+      "isActive": true,
+      "isInActive": false,
+      "isDisabled": false
+    },
+    "role": [
+      "Document Management ggrgxa"
+    ],
+    "kxiUserRoles": [
+      "test role imoqdw"
+    ],
+    "organizationalHierarchy": "zfklmadskbs",
+    "userGroup": [
+      "ZZ UserGroup_2025-10-20_05:00:44"
+    ],
+    "landingUrl": "Default Landing Url",
+    "kxiCustomerUserGroup": [
+      "ZZ UserGroup_2025-10-20_05:04:53"
+    ]
+  },
+  "saveUserSuccessMsg": "User saved successfully.",
+  "passwordUpdatedMsg": "Password updated",
+  "passwordResetMsg": "An email with password reset instructions will be sent to the email address:automation-bitbucket-user@360factors.com",
+  "mandatoryErrorMsg": "Problem(s) in save. Please update the highlighted fields below and try again.",
+  "importSuccessMsg": "Users Upload complete. Sending email with Import Summary Information."
+}

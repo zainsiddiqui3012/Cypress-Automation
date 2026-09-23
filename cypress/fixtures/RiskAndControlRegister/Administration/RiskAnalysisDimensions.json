@@ -1,0 +1,89 @@
+{
+  "add": {
+    "likelihoodName": {
+      "labelPrefix": "A-like",
+      "textDlt": "Delete",
+      "dangerText": "has-danger",
+      "likelihoodText": "likelihood",
+      "likelihoodLabel": "likelihoodLabel",
+      "likelihoodValue": "likelihoodValue"
+    },
+    "impactName": {
+      "labelPrefix": "A-impact",
+      "tabName": "Impact Dimensions",
+      "impactText": "impact",
+      "impactLabel": "impactLabel",
+      "impactValue": "impactValue"
+    },
+    "inherentName": {
+      "labelPrefix": "inherent",
+      "inherentInput": "inherentValueInput",
+      "inherentValue": "inherentValue",
+      "inherentLabel": "inherentLabel",
+      "inherentText": "inherentText"
+    },
+    "riskAnalysis": {
+      "riskTabName": "Risk Analysis Dimensions"
+    },
+    "relativeMagnitudeName": {
+      "labelPrefix": "rel",
+      "tabName": "Relative Magnitudes",
+      "relativeMagnitudeText": "relativeMagnitude",
+      "relativeMagnitudeLabels": "relativeMagnitudeLabels",
+      "relativeMagnitudeValue": "relativeMagnitudeValue",
+      "spacesName": " Extra "
+    },
+    "controlStrengthName": {
+      "labelPrefix": "control",
+      "tabName": "Control Strength Dimensions",
+      "controlStrengthText": "controlStrength",
+      "controlStrengthLabels": "controlStrengthLabels",
+      "controlStrengthValue": "controlStrengthValue",
+      "spacesName": " Extra "
+    }
+  },
+  "update": {
+    "likelihoodName": {
+      "labelPrefix": "Upd-like"
+    },
+    "impactName": {
+      "labelPrefix": "Upd-impact"
+    },
+    "inherentName": {
+      "labelPrefix": "upd-inh"
+    },
+    "relativeMagnitudeName": {
+      "labelPrefix": "upd-rl"
+    },
+    "controlStrengthName": {
+      "labelPrefix": "upd-Con"
+    }
+  },
+  "nameField": {
+    "add": "add",
+    "update": "update"
+  },
+  "successMessage": {
+    "savedRow": "Dimensions saved Successfully",
+    "inhertSaved": "Dimensions saved Successfully Please click Recalculate Risk under three elipses to update risk register."
+  },
+  "errorMessage": {
+    "savingIssue": "Problem(s) in save. Please update the highlighted fields below and try again.",
+    "valueError": "Value is already added",
+    "controlError": "Value is already selected",
+    "duplicateValue": "Error saving Dimensions. Each dimension should have unique value",
+    "impactDuplicateValue": "Error saving Dimensions. Each dimension should have unique value"
+  },
+  "auditLog": {
+    "modifiedRecord": "modified the",
+    "deletedRecord": "deleted the"
+  },
+  "delete": {
+    "textDlt": "Delete"
+  },
+  "generalText": {
+    "textName": "text",
+    "ipText": "IP:",
+    "checkMaxLength": "1000"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "riskCatagory": {
+    "add": {
+      "riskCategoryId": "~zz Risk Cat add 10/09/2025 21:15:21",
+      "baseName": "ZZ $$ Risk Cat ",
+      "name": "~zz Risk Cat add 10/09/2025 21:15:21",
+      "description": "Comprehensive test description for risk category validation and testing scenarios",
+      "businessAreaDefinition": "Process - Revenue - Services - Accounting",
+      "multipleBusinessAreaDefinition": [
+        "Process - ITGC FS - ACH Security - Access Level Review",
+        "Process - ITGC FS - Document Imaging - Access Level Review"
+      ],
+      "riskAppetite": [
+        "test Risk Appetite"
+      ],
+      "inherentRiskProbabilityAssessment": "test Risk Probability 16-7",
+      "inherentRiskImpactAssessment": "test Risk Analysis 16-7",
+      "controlEnvironmentAssessment": "test import gyxdeczh",
+      "parentRiskCategory": "Root Category",
+      "parentCategoryIndex": 0
+    },
+    "update": {
+      "riskCategoryId": "~zz Risk Cat update 10/02/2025 23:01:10",
+      "baseName": "ZZ update Risk Cat ",
+      "name": "~zz Risk Cat update 10/02/2025 23:01:10",
+      "description": "Updated comprehensive test description with additional validation scenarios",
+      "businessAreaDefinition": "Process - Revenue - Services - Accounting",
+      "multipleBusinessAreaDefinition": [
+        "Process - ITGC FS - ACH Security - Access Level Review",
+        "Process - ITGC FS - Document Imaging - Access Level Review"
+      ],
+      "riskAppetite": [
+        "update Risk Appetite"
+      ],
+      "inherentRiskProbabilityAssessment": "test Risk Probability 16-7",
+      "inherentRiskImpactAssessment": "test Risk Analysis 16-7",
+      "controlEnvironmentAssessment": "test import gyxdeczh",
+      "parentRiskCategory": "Updated Parent Category",
+      "parentCategoryIndex": 1
+    },
+    "formBtnText": "Add Risk Category",
+    "nameMaxLength": 255,
+    "descriptionMaxLength": 5000,
+    "validationErrors": {
+      "missingField": "Please Enter Name And Then Select Content Library",
+      "missingName": "Name is required",
+      "duplicateCategory": "Risk Category with same name already exists at this level",
+      "exceedingNameLength": "Name cannot exceed 255 characters",
+      "missingBusinessArea": "Business Area is required",
+      "missingRiskAppetite": "Risk Appetite selection is required",
+      "invalidSpecialChars": "Invalid characters in name field"
+    },
+    "successMessages": {
+      "categoryCreated": "Risk Category created successfully",
+      "categoryUpdated": "Risk Category updated successfully",
+      "categoryDeleted": "Risk Category deleted successfully"
+    },
+    "testScenarios": {
+      "maxLengthName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "exceedingLengthName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "specialCharacters": "Risk Cat @#$%^&*()",
+      "numericName": "12345 Risk Category",
+      "emptyName": "",
+      "whitespaceOnlyName": "   ",
+      "richTextDescription": "<b>Bold text</b><i>Italic text</i><ul><li>Bullet point 1</li><li>Bullet point 2</li></ul>"
+    }
+  },
+  "riskDefinition": {
+    "add": {
+      "riskDefinitionId": "~ZZ $$ Risk Def 10/03/2025 21:05:54",
+      "baseName": "~ZZ $$ Risk Def ",
+      "name": "~ZZ $$ Risk Def 10/03/2025 21:05:54",
+      "businessAreaDefinition": "Process - Revenue - Services - Accounting",
+      "filterBusinessAreaDefinition": "Accounting",
+      "description": "Comprehensive risk definition description for testing validation scenarios and edge cases",
+      "cfrGuidance": "CFR guidance for risk definition compliance and regulatory requirements",
+      "status": "Active",
+      "inherentRiskProbabilityAssessment": "test Risk Probability 16-7",
+      "inherentRiskImpactAssessment": "test Risk Analysis 16-7",
+      "controlEnvironmentAssessment": "test import gyxdeczh",
+      "riskCategory": "Risk Cat add jmbeib",
+      "movedRiskDefinition": "Test Moved Risk Definition"
+    },
+    "update": {
+      "riskDefinitionId": "~ZZ Update Risk Def yzfyag",
+      "baseName": "~ZZ Update Risk Def ",
+      "name": "~ZZ Update Risk Def yzfyag",
+      "businessAreaDefinition": "Process - Revenue - Services - Accounting",
+      "description": "Updated comprehensive risk definition description with enhanced validation testing",
+      "cfrGuidance": "Updated CFR guidance for enhanced compliance and risk management",
+      "status": "Active",
+      "inherentRiskProbabilityAssessment": "test Risk Probability 16-7",
+      "inherentRiskImpactAssessment": "test Risk Analysis 16-7",
+      "controlEnvironmentAssessment": "test import gyxdeczh",
+      "riskCategory": "Risk Cat add jmbeib"
+    },
+    "controlLibrary": {
+      "name": "Comprehensive Test Control Library"
+    },
+    "controlTaxonomy": {
+      "name": "Test Control Taxonomy Enhanced"
+    },
+    "controlDefinitions": [
+      "Test Risk Def Enhanced 01",
+      "Test Risk Def Enhanced 02",
+      "Test Risk Def Validation 03"
+    ],
+    "controlDef1": "Test Risk Def Enhanced 01",
+    "controlDef2": "Test Risk Def Enhanced 02",
+    "specialCharacters": "Risk Def @#$%^&*()_+{}[]|\\:;\"'<>?,./",
+    "formBtnText": "Add Risk Definition",
+    "nameMaxLength": 255,
+    "descriptionMaxLength": 5000,
+    "validationErrors": {
+      "missingField": "Please Select a Different Parent. Parent Selected same as Risk Category being edited.",
+      "missingName": "Please Enter Name And Then Select Content Library",
+      "riskIDRequired": "Risk Definition ID is Required",
+      "missingRiskCategory": "Risk Category is required",
+      "duplicateDefinition": "Risk Definition with same name already exists",
+      "exceedingNameLength": "Definition name cannot exceed 255 characters",
+      "exceedingDescLength": "Description cannot exceed 5000 characters",
+      "invalidStatus": "Invalid status selected",
+      "requiredFieldsEmpty": "Please fill in all required fields",
+      "requiredAllFieldsEmpty": "Problem(s) in save. Please update the highlighted fields below and try again."
+    },
+    "successMessages": {
+      "definitionCreated": "Risk Definition created successfully",
+      "definitionUpdated": "Risk Definition updated successfully",
+      "definitionDeleted": "Risk Definition deleted successfully",
+      "statusUpdated": "Risk Definition status updated successfully"
+    },
+    "testScenarios": {
+      "maxLengthName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "exceedingLengthName": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "maxLengthDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.",
+      "specialCharsName": "Risk Definition @#$%^&*()",
+      "numericName": "12345 Risk Definition",
+      "statusOptions": [
+        "Active",
+        "Inactive",
+        "Draft",
+        "Under Review"
+      ],
+      "emptyName": "",
+      "whitespaceOnlyName": "   "
+    },
+    "richTextDescription": "<b>Bold risk definition text</b><i>Italic emphasis</i><ul><li>Risk scenario 1</li><li>Risk scenario 2</li><li>Risk mitigation approach</li></ul><p>Additional risk context and <strong>important</strong> considerations.</p>"
+  },
+  "importOperations": {
+    "validFiles": [
+      "ImportTemplate_RiskTaxonomy_NoneReseller.xlsx",
+      "KRI_Data_Template.xlsx"
+    ],
+    "invalidFiles": [
+      "invalidFormatFile.ppt",
+      "exceedSizeFile.xlsx"
+    ],
+    "templateFile": "ImportTemplate_RiskTaxonomy.xlsx",
+    "maxFileSize": "10MB",
+    "supportedFormats": [
+      ".xlsx",
+      ".xls"
+    ],
+    "validationMessages": {
+      "importSuccess": "Import completed successfully",
+      "invalidFormat": "Invalid file format. Please use Excel format.",
+      "fileSizeExceeded": "File size exceeds maximum limit",
+      "emptyFile": "File is empty or corrupted",
+      "invalidData": "Invalid data format in import file",
+      "duplicateData": "Duplicate entries found in import file"
+    }
+  },
+  "treeOperations": {
+    "expandIcon": ".ag-icon-tree-closed",
+    "collapseIcon": ".ag-icon-tree-open",
+    "parentNodes": [
+      ".ag-row-group",
+      ".ag-row-level-0"
+    ],
+    "childNodes": [
+      ".ag-row-level-1",
+      ".ag-row-level-2"
+    ],
+    "maxTreeDepth": 5,
+    "validationMessages": {
+      "treeStructureValid": "Tree structure is valid",
+      "parentChildValid": "Parent-child relationship verified",
+      "maxDepthExceeded": "Maximum tree depth exceeded"
+    }
+  },
+  "addRecommendControls": {
+    "controlDefinitionId": "test Control vsxlyg",
+    "baseName": "test Control ",
+    "name": "test Control vsxlyg",
+    "description": "Test Control Description",
+    "controlType": "Corrective",
+    "tags": "Tag1",
+    "controlOperations": [
+      "test Control Operations"
+    ],
+    "controlDefinitionCategories": [
+      "test Control Definition Categories"
+    ],
+    "primaryControl": "Yes",
+    "preventFraud": "Yes",
+    "controlFrequency": "Annually",
+    "designAssessment": "test Risk Probability 16-7",
+    "operatingEffectivenessAssessment": "test import gyxdeczh",
+    "optimalRole": "Test Optimal Role",
+    "comments": "Test Comments",
+    "controlExecution": "Manual"
+  },
+  "globalSettings": {
+    "defaultTimeout": 10000,
+    "retryAttempts": 3,
+    "apiEndpoints": {
+      "riskCategories": "/api/risk-categories",
+      "riskDefinitions": "/api/risk-definitions",
+      "import": "/api/import-taxonomy",
+      "export": "/api/export-taxonomy"
+    },
+    "permissions": {
+      "create": true,
+      "read": true,
+      "update": true,
+      "delete": true,
+      "import": true,
+      "export": true
+    }
+  },
+  "riskId": "Test Risk Category ID",
+  "name": "Risk Category Name sqetfn",
+  "duplicateName": "Test Risk Category Name Duplicate",
+  "description": "Test Risk Category Description",
+  "categoryCreationSuccessMessage": "Risk Category Saved Successfully",
+  "mandatoryCategoryErrorMessage": "Please Enter Name And Then Select Content Library",
+  "duplicateCategoryErrorMessage": "Category already exists",
+  "modalTexts": {
+    "importRiskTaxonomiesFromExcel": "Import Risk Taxonomies from Excel file",
+    "addRiskCategory": "Add Risk Category",
+    "jobQueue": "Job Queue"
+  },
+  "buttonTexts": {
+    "import": "Import",
+    "cancel": "Cancel",
+    "close": "Close",
+    "refresh": "Refresh"
+  },
+  "validationMessages": {
+    "noRecordFound": "No record found",
+    "importSuccessful": "Import completed successfully",
+    "importFailed": "Import failed",
+    "importCompletedWithErrors": "COMPLETED WITH ERRORS",
+    "noSearchFieldFound": "No search field found",
+    "fileUploadRequired": "Please select a file to upload",
+    "invalidFileFormat": "Invalid file format. Please upload an Excel file.",
+    "emptyFileError": "File cannot be empty",
+    "duplicateEntriesError": "Duplicate entries found in the file",
+    "missingRequiredColumns": "Required columns are missing from the file",
+    "maxFileSizeExceeded": "File size exceeds the maximum limit"
+  },
+  "filePaths": {
+    "sampleTemplate": "cypress/attachment/ImportTemplate_RiskTaxonomy_NoneReseller.xlsx",
+    "outputPath": "cypress/downloads/importFile_XLSX.xlsx",
+    "invalidFile": "cypress/attachment/testing.txt",
+    "exceedSizeFile": "cypress/SampleUploadFiles/exceedSizeFile.xlsx",
+    "invalidFormatFile": "cypress/SampleUploadFiles/invalidFormatFile.ppt",
+    "validImageFile": "cypress/SampleUploadFiles/validFile.png"
+  },
+  "logMessages": {
+    "sampleFileExists": "Sample file exists: ",
+    "verifiedDuplicateHandling": "Verified duplicate handling for: ",
+    "auditLogEntryFound": "✓ Successfully found audit log entry for imported taxonomy: ",
+    "partialImportSuccess": "Verified partial import success - some records may have failed",
+    "importOperationCompleted": "Import operation completed",
+    "jobStatusMonitoring": "Monitoring job status...",
+    "modalVisible": "Modal is visible and ready for interaction"
+  },
+  "statusValues": {
+    "completed": "COMPLETED",
+    "failed": "FAILED",
+    "completedWithErrors": "COMPLETED WITH ERRORS",
+    "inProgress": "IN_PROGRESS",
+    "pending": "PENDING"
+  },
+  "auditLogMessages": {
+    "auditTrailGenerated": "Audit trail generated for import operation",
+    "noAuditRecordFound": "No audit record found for this operation"
+  }
+}

@@ -1,0 +1,15 @@
+
+[
+ 
+ {
+    "name" : "Add Inherent Risk Probability Assessment, Inherent Risk Impact Assessment and Control Environment Assessment Successfully",
+
+    "InherentRiskProbabilityAssessment": "Assessment Probability",
+    "InherentRiskImpactAssessment": "Assessment Impact",
+    "ControlEnvironmentAssessment": "Control Environment Assessment"
+  
+
+  }    
+
+   
+]

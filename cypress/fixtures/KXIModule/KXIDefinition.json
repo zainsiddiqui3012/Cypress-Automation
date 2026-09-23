@@ -1,0 +1,72 @@
+{
+  "add": {
+    "dataEntryType": "Manual",
+    "inputType": "Direct from API or SFTP",
+    "riskAppetite": [],
+    "kxiType": "KRI",
+    "kriScope": "Business Unit Risk",
+    "bu": "BU",
+    "kriCategory": "Z-category-07-02-2025_10-47-00",
+    "kxiDefinitionID": "ZZ KXI Aug 12, 2025 5:59:58 PM",
+    "kxiDefinitionName": "ZZ KXI Aug 12, 2025 5:59:58 PM",
+    "preName": "ZZ KXI ",
+    "kxiDescription": "KXI Description",
+    "owner": "kxiauto",
+    "status": "Active",
+    "ownerForUpdateTask": "autodecisions",
+    "measurementPeriod": "Monthly",
+    "targetValue": "70",
+    "leftTriggerLvl1": "60",
+    "leftTriggerLvl2": "50",
+    "leftTriggerLvl3": "40",
+    "rightTriggerLvl1": "75",
+    "rightTriggerLvl2": "80",
+    "rightTriggerLvl3": "85"
+  },
+  "update": {
+    "dataEntryType": "Manual",
+    "inputType": "Direct from API or SFTP",
+    "riskAppetite": [],
+    "kxiType": "KRI",
+    "kriScope": "Corporate Risk",
+    "kriCategory": "Z-category-07-02-2025_10-47-00",
+    "kxiDefinitionID": "ZZ update Aug 12, 2025 6:00:42 PM",
+    "kxiDefinitionName": "ZZ update Aug 12, 2025 6:00:42 PM",
+    "preName": "ZZ update ",
+    "kxiDescription": "KXI Description",
+    "owner": "kxiauto",
+    "status": "Active",
+    "ownerForUpdateTask": "autodecisions",
+    "measurementPeriod": "Monthly",
+    "targetValue": "70",
+    "leftTriggerLvl1": "60",
+    "leftTriggerLvl2": "50",
+    "leftTriggerLvl3": "40",
+    "rightTriggerLvl1": "75",
+    "rightTriggerLvl2": "80",
+    "rightTriggerLvl3": "85"
+  },
+  "notApplicable": {
+    "leftTrigger": [
+      "leftTriggerLevel1",
+      "leftTriggerLevel2",
+      "leftTriggerLevel3"
+    ],
+    "rightTrigger": [
+      "rightTriggerLevel1",
+      "rightTriggerLevel2",
+      "rightTriggerLevel3"
+    ]
+  },
+  "toastMsgs": {
+    "successMsg": "Saved Successfully",
+    "mandatoryError": "Problem(s) in save. Please update the highlighted fields below and try again.",
+    "duplicateError": "Record Already Exists"
+  },
+  "invalidFormatFile": "exceedSize.png",
+  "invalidImportColor": "rgb(244, 81, 108)",
+  "maxLength": "200",
+  "descriptionMaxLength": "5000",
+  "importText": "Import",
+  "importStatusComplete": "COMPLETED"
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "name" : "Add Definition Successfully from None Space",
+    "riskDefinitionId": "NoneID  ",
+    "definitionName": "Risk Definition Automation Testing ",
+    "description": "Automate Description ",
+    "BusinessAreaDefinition" : "Asset"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "headers": {
+    "name": "Name",
+    "contentLibrary": "Content Library",
+    "status": "Status"
+  },
+  "uiConfig": {
+    "successMessage": "Record Saved Successfully",
+    "errorMessage": "Empty record exist",
+    "noOfRecords": 41,
+    "noOfStatuses": 0
+  },
+  "fileData": {
+    "addText": "Unique - Add - Control Defnition Category ",
+    "updateText": "Unique - Update - Control Defnition Category ",
+    "specialCharactersText": "Special Characters !@#$%. "
+  },
+  "keyCommands": {
+    "backspace": "{selectall}{backspace}",
+    "enter": "{enter}"
+  },
+  "scrollDirection": {
+    "bottom": "bottom"
+  },
+  "parameters": {
+    "add": "add",
+    "update": "update",
+    "controlNameKey": "{controlName}",
+    "column": "{column}",
+    "name": "name",
+    "contentLibrary": "contentLibrary.id",
+    "status": "status"
+  },
+  "negativeData": {
+    "name": "data not present - invalid data.",
+    "status": "test status"
+  },
+  "addData": {
+    "name": "Unique - Add - Control Defnition Category bkcdpt",
+    "contentLibrary": "Mustafa Content Library",
+    "status": "Active"
+  },
+  "updateData": {
+    "name": "Unique - Update - Control Defnition Category xmppnq",
+    "specialCharacters": "Special Characters !@#$%. vstepi",
+    "status": "Inactive"
+  }
+}

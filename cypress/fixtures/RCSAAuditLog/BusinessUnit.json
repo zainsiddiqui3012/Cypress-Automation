@@ -1,0 +1,12 @@
+[
+  
+    {
+        "CreateSingleBU" : "Create Single Business Unit",
+        "CreateGroupBU" : "Create Group Business Unit",
+        "CreateNABU" : "Create N/A Business Unit",
+       "SetSingleROC" : "Add Business Unit with Single ROC Selection",
+       "SetGroupROC" : "Add Business Unit with Group ROC Selection",
+       "SetNAROC" : "Add Business Unit with N/A ROC Selection"
+     }
+          
+]

@@ -1,0 +1,50 @@
+//****** "Created by Owais Khan on 3 June 2022  */
+////***** Run all tests of Predict360 application. */
+
+pipeline {
+  agent any
+    
+  tools {nodejs "node"}
+
+  //   environment {
+  //      CHROME_BIN = '/bin/google-chrome'
+      
+  //  }
+    
+  stages {
+        
+    // stage('Git') {
+    //   steps {
+        
+    //     git 'https://khanowais@bitbucket.org/360factors/cypress-automation.git'
+    //   }
+    // }
+     
+    stage('Build') {
+      steps {
+        script {
+            sh 'npm install'
+            // sh 'node --version'
+            // sh 'npm --version'
+            sh 'npm update'
+            sh 'whoami'
+            sh 'pwd'
+            sh "echo ${thingtoshow}"
+
+            sh 'sudo netstat -ntlp'
+            sh 'npm run triggerStageEnv'
+  
+ 
+        }
+            
+      }
+    }  
+    
+            
+    // stage('Test') {
+    //   steps {
+    //             echo 'Deploying....'
+    //   }
+    // }
+  }
+}

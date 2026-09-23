@@ -1,0 +1,13 @@
+[
+
+    {
+        "ClickOnExitReviewTab" : "Switch To Exit Review Tab",
+        "ValidateEditReviewTab" : "Switch To Edit Review Tab",
+        "EditReviewModalCases" : "Switch To Edit Review Tab and Validate Modal text, Toogle btn, Cancel btn, Parent Ticket ID's arrangement",
+        "MarkReviewFromEditReviewMode" : "Mark Review From EditReviewMode"
+        
+    }
+
+
+
+]

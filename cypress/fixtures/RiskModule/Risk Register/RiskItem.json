@@ -1,0 +1,16 @@
+r
+[
+ 
+ {
+    "name" : "Add Risk Item from Risk Register Successfully",
+    "riskDefinition": "Automation",
+    "riskName": "Risk Item ",
+    "riskdescription": "This Item added from Risk Register ",
+    "approach": "Accept",
+    "BU": "BU-1"
+
+
+  }    
+
+   
+]

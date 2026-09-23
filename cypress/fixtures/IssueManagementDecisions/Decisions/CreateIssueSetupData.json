@@ -1,0 +1,657 @@
+{
+  "setup": {
+    "existingIssueName": "Issue- vS7cLFvWLChJ6Kv",
+    "childIssueName": "Child Task",
+    "severitySimpleFullName": {
+      "prefix": "Issue severity name Simple - ",
+      "fullNameKey": "severitySimpleFullName",
+      "severitySimpleFullName": "Issue severity name Simple - 87XrQR8PTqY1Bb6"
+    },
+    "severityExtendedFullName": {
+      "prefix": "Issue severity name Extended - ",
+      "fullNameKey": "severityExtendedFullName",
+      "severityExtendedFullName": "Issue severity name Extended - 2h1Cd5qF3Votzs5"
+    },
+    "summary": {
+      "prefix": "Issue- ",
+      "fullNameKey": "summaryFullName",
+      "summaryFullName": "Issue- CAnnfrkCTPp4HOa",
+      "summary": "Issue- CAnnfrkCTPp4HOa"
+    },
+    "issueSource": {
+      "prefix": "Issue Source - ",
+      "fullNameKey": "issueSourceFullName",
+      "issueSourceFullName": "Issue Source - OpW6Mxrel8WjRz2kVaK9heDFUPnx2YvRg35q1pPfbmY51JGGlWDpxHDNSjkpU94uWnNrAmkVWCEHmDjeDK3hSgaR4Ut9YjeNOorxjXiz14SvjSZCRaiOp2CyLaexfnSGtYUFPy0Po6jKiQyMEyeSzSSBHdJ4oJ4nTpMDIpysz7P1UyQr1PcAQpF0T",
+      "issueSource": "Issue Source - OpW6Mxrel8WjRz2kVaK9heDFUPnx2YvRg35q1pPfbmY51JGGlWDpxHDNSjkpU94uWnNrAmkVWCEHmDjeDK3hSgaR4Ut9YjeNOorxjXiz14SvjSZCRaiOp2CyLaexfnSGtYUFPy0Po6jKiQyMEyeSzSSBHdJ4oJ4nTpMDIpysz7P1UyQr1PcAQpF0TX5XTpYfNXUs1XPPpIAkNf1RAyl2ETViFarCVOPadjQ99pv8wwFFHQRN"
+    },
+    "regulatorAgency": {
+      "prefix": "Entity name ",
+      "fullNameKey": "regulatorAgencyFullName",
+      "regulatorAgencyFullName": "Entity name 3vIYD8sex2a7o1b",
+      "regulatorAgency": "Entity name 3vIYD8sex2a7o1b"
+    },
+    "issueType": {
+      "prefix": "Issue Type - ",
+      "fullNameKey": "issueTypeFullName",
+      "issueTypeFullName": "Issue Type - 1w5dDfQ9ST0Agfr",
+      "issueType": "Issue Type - 1w5dDfQ9ST0Agfr"
+    },
+    "rootCause": {
+      "prefix": "Root Cause - ",
+      "fullNameKey": "rootCauseFullName",
+      "rootCauseFullName": "Root Cause - FNQMiFiqbmkVlTA",
+      "rootCause": "Root Cause - FNQMiFiqbmkVlTA"
+    },
+    "area": {
+      "prefix": "Area - ",
+      "fullNameKey": "areaFullName",
+      "areaFullName": "Area - 1940RBLRufTSxeu",
+      "area": "Area - 1940RBLRufTSxeu"
+    },
+    "agency": {
+      "prefix": "Agency-Automation",
+      "fullNameKey": "agencyFullName",
+      "agencyFullName": "Agency-Automation1fhZxgjZsk1iOkx",
+      "agency": "Agency-Automation1fhZxgjZsk1iOkx"
+    },
+    "category": {
+      "prefix": "Category-Automation",
+      "fullNameKey": "categoryFullName",
+      "categoryFullName": "Category-Automation2HGkOnMlSZUTxax",
+      "description": "This is a test category description.",
+      "category": "Category-Automation2HGkOnMlSZUTxax"
+    },
+    "bsaSubCategory": {
+      "prefix": "BSA SubCategory - ",
+      "fullNameKey": "bsaSubCategoryFullName",
+      "bsaSubCategoryFullName": "BSA SubCategory - fa1qgMOddCtvZpn",
+      "bsaSubCategory": "BSA SubCategory - fa1qgMOddCtvZpn"
+    },
+    "vendor": {
+      "fullNameKey": "vendorFullName",
+      "vendorFullName": "Category-01/Type1/UZ company"
+    },
+    "responsibleDepartment": {
+      "name": "Operations",
+      "inactiveOrgHier": "kxicustomer/Business unit withygqggscqjuc"
+    },
+    "assignee": {
+      "assigneeType1": "Single",
+      "assigneeType2": "Group",
+      "singleAssigneeUserWithCompleteName": "Auto IssueManagement (autoissuemanagement)",
+      "groupAssigneeName": "kxi group",
+      "groupAssigneeName2": "kxi-customer-cms",
+      "singleAssigneeUser": "QA Automation V2"
+    },
+    "repeatFinding": {
+      "yesOption": "Yes",
+      "noOption": "No"
+    },
+    "descriptionSummary": "uY6rYziHL5",
+    "originalReport": "XXHZryfdg9CvEsCgAR4tbSWZ5tsYvY",
+    "potentialLoss": 5899,
+    "actualLoss": 238020,
+    "impactedControls": "Abcd",
+    "riskArea": "Operational",
+    "numberOfCustomersImpacted": 125,
+    "howCustomersAreImpacted": "lutrmrnjug",
+    "recommendation": "dmwcdzgrul",
+    "managementResponse": "ngQaxbDYyo",
+    "rootCauseDescription": "S0nCeFjwRJ",
+    "externalWebform": {
+      "prefix": "External Webform - ",
+      "fullNameKey": "externalWebformFullName",
+      "externalWebformFullName": "External Webform - ScZwW0yxmqIlP3L",
+      "externalWebform": "External Webform - ScZwW0yxmqIlP3L"
+    }
+  },
+  "keys": {
+    "severitySimpleFullName": "severitySimpleFullName",
+    "severityExtendedFullName": "severityExtendedFullName",
+    "summary": "summary",
+    "issueSource": "issueSource",
+    "regulatorAgency": "regulatorAgency",
+    "issueType": "issueType",
+    "rootCause": "rootCause",
+    "area": "area",
+    "agency": "agency",
+    "category": "category",
+    "bsaSubCategory": "bsaSubCategory",
+    "descriptionSummary": "descriptionSummary",
+    "originalReport": "originalReport",
+    "potentialLoss": "potentialLoss",
+    "actualLoss": "actualLoss",
+    "impactedControls": "impactedControls",
+    "riskArea": "riskArea",
+    "numberOfCustomersImpacted": "numberOfCustomersImpacted",
+    "howCustomersAreImpacted": "howCustomersAreImpacted",
+    "recommendation": "recommendation",
+    "managementResponse": "managementResponse",
+    "rootCauseDescription": "rootCauseDescription",
+    "existingIssueName": "existingIssueName",
+    "childIssueName": "childIssueName"
+  },
+  "documentTree": {
+    "documentParent": "Issue Management",
+    "documentChild": "issue1"
+  },
+  "requirementTree": {
+    "requirementParent": "Issue Requirement",
+    "requirementChild": "Add req"
+  },
+  "riskTree": {
+    "riskView": "Risk def added for testing - BU: BU added for Risk tree structure testing ",
+    "riskParent": "Risk Cat added for validation in issue form",
+    "riskChild": "Risk def added for testing - BU: BU added for Risk tree structure testing 218107",
+    "riskDisplayName": "Risk def added for testing - BU: BU added for Risk tree structure testing"
+  },
+  "risk": {
+    "categoryID": "Category ID ",
+    "categoryName": "Category Name ",
+    "categoryDescription": "Category Description ",
+    "definitionID": "Risk Definition ID ",
+    "definitionName": "Risk Definition Name ",
+    "definitionDescription": "Risk Definition Description "
+  },
+  "roles": {
+    "reseller": {
+      "key": "Reseller",
+      "name": "kxireseller"
+    },
+    "customer": {
+      "key": "Customer",
+      "name": "kxicustomer"
+    },
+    "role": {
+      "key": "Role",
+      "name": "IssueManagementRole"
+    }
+  },
+  "notifications": {
+    "email": "automation-bitbucket-user@360factors.com",
+    "incorrectEmail": "automation360factors.com",
+    "multipleEmails": "automation-bitbucket-user@360factors.com,automation-bitbucket-user@360factors.com"
+  },
+  "date": {
+    "currentDate": "current",
+    "pastDate": "past",
+    "futureDate": "future",
+    "dateAheadThree": 3,
+    "dateAheadSix": 6,
+    "dateBeforeOne": 1
+  },
+  "statuses": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "severitySimple": "Simple",
+    "severityExtended": "Extended"
+  },
+  "fields": {
+    "textArea": "textArea",
+    "select": "select",
+    "textbox": "textbox",
+    "dropdown": "dropdown"
+  },
+  "textVerify": {
+    "editButton": "Edit",
+    "linkeItemModalText": "Linked Item(s)"
+  },
+  "fileName": {
+    "documentFileName": "issue1.docx"
+  },
+  "validationValues": {
+    "numericMaxValidation": "10000000000",
+    "numericNegativeValues": "-25000",
+    "numericFloatingValues": "255.44",
+    "invalidFormatOfDate": "20240901",
+    "issueLink": "Issue",
+    "childLink": "Child"
+  },
+  "messages": {
+    "successfulStatus": "Record Saved Successfully",
+    "deleteToasterText": "Complaint Issue Type deleted successfully.",
+    "validationErrorToaster": "already exists in the system.",
+    "validationErrorToasterForSeverity": "Problem in saving Severity.",
+    "validationErrorEmptyToaster": "Empty record exist",
+    "successfulToasterAreaScreen": "Area saved successfully.",
+    "successfulToasterAgencyScreen": "Agency saved successfully.",
+    "successfulToasterCategoryScreen": "Category saved successfully.",
+    "validationErrorForPotentialLoss": "\"Potential Loss\" can have a maximum length of 10 digits.",
+    "validationErrorForActualLoss": "\"Actual Loss\" can have a maximum length of 10 digits.",
+    "validationErrorForNoCustomersImpacted": "\"Number Of Customer Impacted\" can have a maximum length of 10 digits.",
+    "actionPlanRequiredForValidation": "Requires that at least(1) action plan has been created against the issue"
+  },
+  "lengthOfItem": {
+    "searchItemCount": 1,
+    "multiSelectCount": 2,
+    "lenghtValidationCount": "2"
+  },
+  "timeouts": {
+    "default": 15000,
+    "delay": 200
+  },
+  "tabs": {
+    "summary": "Summary",
+    "keyDates": "Key Dates",
+    "details": "Details"
+  },
+  "OrganizationalHierarchy": {
+    "OG": "Operations"
+  },
+  "IssueAssignees": {
+    "submitterName": "Automation user",
+    "Assignee": "Automation user",
+    "GroupAssignee": "user group A",
+    "Reporter": "Automation user",
+    "Owner": "Automation user",
+    "AssigneeTypeSingle": "Single",
+    "AssigneeTypeGroup": "Group",
+    "owner": "Automation user"
+  },
+  "itemFullName": "BSA SubCategory - DMW5aycbpxGmKb5",
+  "validationMessages": {
+    "mandatoryFieldsValidation": [
+      "'Issue Source' must be specified",
+      "'Responsible Department' must be specified",
+      "'Submitter Name' must be specified",
+      "'Severity' must be specified",
+      "'Identification Date' must be specified",
+      "'Owner' must be specified",
+      "'Description' must be specified",
+      "\"Summary\" must be specified.",
+      "\"Assignee\" must be specified."
+    ],
+    "spacesOnlyFields": [
+      "'Description' must be specified",
+      "'Summary' must be specified."
+    ]
+  },
+  "workflow": {
+    "statusTransitions": {
+      "openToInProgress": {
+        "fromStatus": "Open",
+        "toStatus": "In Progress",
+        "buttonText": "Start Progress",
+        "comment": "Moving to In Progress - Automated transition"
+      },
+      "openToCancelled": {
+        "fromStatus": "Open",
+        "toStatus": "Cancelled",
+        "buttonText": "Cancel",
+        "comment": "Cancelling the issue - Automated transition"
+      },
+      "inProgressToClosed": {
+        "fromStatus": "In Progress",
+        "toStatus": "Closed",
+        "buttonText": "Remediated",
+        "comment": "Closing the issue - Automated transition"
+      },
+      "inProgressToAcceptRisk": {
+        "fromStatus": "In Progress",
+        "toStatus": "Management Accepts Risk",
+        "buttonText": "Accept Risk",
+        "comment": "Accepting risk - Automated transition"
+      },
+      "inProgressToContained": {
+        "fromStatus": "In Progress",
+        "toStatus": "Contained",
+        "buttonText": "Contain",
+        "comment": "Containing the issue - Automated transition"
+      },
+      "inProgressToCancelled": {
+        "fromStatus": "In Progress",
+        "toStatus": "Cancelled",
+        "buttonText": "Cancel",
+        "comment": "Cancelling in progress issue - Automated transition"
+      },
+      "containedToCancelled": {
+        "fromStatus": "Contained",
+        "toStatus": "Cancelled",
+        "buttonText": "Cancel",
+        "comment": "Cancelling contained issue - Automated transition"
+      },
+      "containedToInValidation": {
+        "fromStatus": "Contained",
+        "toStatus": "In Validation",
+        "buttonText": "Submit for Validation",
+        "comment": "Submitting for validation - Automated transition"
+      },
+      "inValidationToInProgress": {
+        "fromStatus": "In Validation",
+        "toStatus": "In Progress",
+        "buttonText": "Fail Validation",
+        "comment": "Failed validation - Automated transition"
+      },
+      "inValidationToCancelled": {
+        "fromStatus": "In Validation",
+        "toStatus": "Cancelled",
+        "buttonText": "Cancel",
+        "comment": "Cancelling in validation issue - Automated transition"
+      },
+      "closedToInProgress": {
+        "fromStatus": "Closed",
+        "toStatus": "In Progress",
+        "buttonText": "Reopen",
+        "comment": "Reopening the issue - Automated transition"
+      }
+    },
+    "statusButtons": {
+      "open": [
+        "Edit",
+        "Comment",
+        "Attach Files",
+        "Assign",
+        "Start Progress",
+        "Cancel",
+        "Export"
+      ],
+      "inProgress": [
+        "Edit",
+        "Comment",
+        "Attach Files",
+        "Assign",
+        "Contain",
+        "Accept Risk",
+        "Cancel",
+        "Export"
+      ],
+      "contained": [
+        "Edit",
+        "Comment",
+        "Attach Files",
+        "Assign",
+        "Submit for Validation",
+        "Create Action Plan",
+        "Cancel",
+        "Go Back To In Progress",
+        "Export"
+      ],
+      "inValidation": [
+        "Comment",
+        "Attach Files",
+        "Fail Validation",
+        "Cancel",
+        "Export"
+      ],
+      "acceptRisk": [
+        "Comment",
+        "Export"
+      ],
+      "cancelled": [
+        "Comment",
+        "Export"
+      ],
+      "closed": [
+        "Comment",
+        "Re-open",
+        "Export"
+      ]
+    }
+  },
+  "comments": {
+    "standard": {
+      "text": "This is a standard comment added via automation",
+      "isInternal": false
+    },
+    "internal": {
+      "text": "This is an internal comment only visible to team members",
+      "isInternal": true
+    },
+    "statusChange": {
+      "openToInProgress": "Moving issue to In Progress status for processing",
+      "inProgressToClosed": "Issue has been resolved and is being closed",
+      "reopenClosed": "Reopening closed issue for further investigation"
+    }
+  },
+  "issueIdManagement": {
+    "patterns": {
+      "issuePrefix": "Issue-",
+      "issueRegex": "Issue-(\\d+)",
+      "searchFormat": "Issue-{issueId}{enter}"
+    },
+    "filePaths": {
+      "tempDirectory": "cypress/fixtures/temp",
+      "issueIdFile": "currentIssueId.txt",
+      "fullPath": "cypress/fixtures/temp/currentIssueId.txt"
+    },
+    "messages": {
+      "extracting": "Extracting Issue ID from text: {text}",
+      "extracted": "Successfully extracted Issue ID: {issueId}",
+      "navigating": "Navigating to Issue ID: {issueId}",
+      "navigationSuccess": "Successfully navigated to Issue-{issueId}",
+      "extractionError": "Could not extract Issue ID from text: {text}",
+      "fileNotFound": "Issue ID file not found. Please run issue creation test first.",
+      "invalidId": "Invalid Issue ID found in file: {issueId}"
+    },
+    "timeouts": {
+      "searchIcon": 50000,
+      "searchResults": 50000,
+      "defaultOperation": 30000
+    }
+  },
+  "externalWebformData": {
+    "formData": {
+      "summary": {
+        "prefix": "External Webform - ",
+        "fullNameKey": "summaryFullName",
+        "summaryFullName": "External Webform - ",
+        "summary": "External Webform - "
+      },
+      "submitterName": "External Automation Submitter",
+      "originalReport": "This is an automated external webform test report containing detailed information about the incident being reported through the external interface.",
+      "eventOccurrenceDate": "past",
+      "identificationDate": "current",
+      "potentialLoss": 50,
+      "typeOfIssue": "Issue Type - 1w5dDfQ9ST0Agfr",
+      "notifyEmail": "automation-bitbucket-user@360factors.com"
+    },
+    "validationMessages": {
+      "requiredFields": [
+        "'Summary' must be specified",
+        "'Submitter Name' must be specified",
+        "'Original Report' must be specified",
+        "'Identification Date' must be specified"
+      ],
+      "fieldLevelErrors": {
+        "summaryRequired": "'Summary' must be specified",
+        "submitterNameRequired": "'Submitter Name' must be specified",
+        "originalReportRequired": "'Original Report' must be specified",
+        "identificationDateRequired": "'Identification Date' must be specified"
+      }
+    },
+    "ranges": {
+      "potentialLossMin": 1,
+      "potentialLossMax": 100
+    },
+    "testData": {
+      "validationTest": {
+        "summaryTest": "Test Summary for Validation",
+        "submitterTest": "Test Submitter Name",
+        "reportTest": "Test original report content for validation scenarios"
+      },
+      "minimalData": {
+        "submitterName": "Minimal Test Submitter",
+        "originalReport": "Minimal original report content for testing required fields validation only.",
+        "summaryPrefix": "Minimal External Form - "
+      },
+      "messages": {
+        "successfulCreation": "=== EXTERNAL WEBFORM CREATED SUCCESSFULLY ===",
+        "minimalCreation": "=== MINIMAL EXTERNAL WEBFORM CREATED SUCCESSFULLY ===",
+        "emailFieldNotVisible": "Email field is not visible - skipping email validation tests",
+        "emailFieldNotFound": "Email field not found - skipping email validation tests",
+        "generatedValueLog": "Generated external webform value:",
+        "formDataLog": "FormData:",
+        "generatedMinimalValueLog": "Generated external webform value for minimal test:"
+      },
+      "scenarios": {
+        "createWithAllFields": "Create external webform with all required fields",
+        "validateRequiredErrors": "Validate required field error messages when fields are empty",
+        "validateFieldLevelErrors": "Validate individual field-level error messages",
+        "validatePotentialLossRange": "Validate potential loss field accepts values between 1-100",
+        "validateEmailFormats": "Validate email field accepts valid email formats",
+        "createWithMinimalData": "Create external webform with minimum required data",
+        "validateDateBehaviors": "Validate date field behaviors",
+        "validateDropdownSelection": "Validate Type of Issue dropdown selection"
+      },
+      "timeouts": {
+        "formInteractionDelay": 5000,
+        "defaultWait": 1000,
+        "editorWait": 500,
+        "defaultOperation": 30000
+      },
+      "dateOffsets": {
+        "eventOccurrencePast": 30,
+        "eventOccurrenceFuture": 30,
+        "identificationPast": 15,
+        "identificationFuture": 15
+      },
+      "constants": {
+        "dataKey": "externalWebform",
+        "regexPattern": "data-component-id='([^']+)'",
+        "attributePrefix": "data-component-id",
+        "dateFormats": {
+          "isoSplit": "T",
+          "isoIndex": 0
+        },
+        "dateTypes": {
+          "current": "current",
+          "past": "past",
+          "future": "future"
+        },
+        "fieldNames": {
+          "eventOccurrence": "eventOccurrence",
+          "identificationDate": "identificationDate"
+        },
+        "validationStrings": {
+          "empty": "",
+          "notHaveValue": "not.have.value"
+        },
+        "logMessages": {
+          "formLoaded": "External form loaded and ready for interaction"
+        },
+        "jsonStringifyParams": {
+          "replacer": null,
+          "space": 2
+        },
+        "cssSelectors": {
+          "visibility": "be.visible",
+          "disabled": "not.be.disabled",
+          "inputTextarea": "input, textarea",
+          "input": "input",
+          "button": "button",
+          "submitButton": "input[type=\"submit\"]",
+          "inputButton": "input[type=\"button\"]",
+          "buttonTypes": "button, input[type=\"submit\"], input[type=\"button\"]",
+          "richTextEditor": "textarea, .ql-editor, [contenteditable=\"true\"]",
+          "body": "body"
+        },
+        "elementProperties": {
+          "force": true,
+          "first": "first"
+        },
+        "keyboardKeys": {
+          "enter": "{enter}"
+        }
+      },
+      "validPotentialLoss": [
+        1,
+        50,
+        100
+      ],
+      "invalidPotentialLoss": [
+        0,
+        101,
+        -5,
+        "abc"
+      ],
+      "validEmails": [
+        "test@example.com",
+        "automation-bitbucket-user@360factors.com"
+      ],
+      "invalidEmails": [
+        "invalid-email",
+        "test@",
+        "@example.com",
+        "test..test@example.com"
+      ]
+    }
+  },
+  "rootCauseOptions": {
+    "default": "Others",
+    "available": [
+      "Process Failure",
+      "System Failure",
+      "Human Error",
+      "External Factors",
+      "Others"
+    ]
+  },
+  "commentOptions": {
+    "default": "Issue cancelled due to automation testing",
+    "openToCancelled": "Cancelling issue from Open status - Automated workflow test",
+    "inProgressToCancelled": "Cancelling issue from In Progress status - Automated workflow test",
+    "containedToCancelled": "Cancelling issue from Contained status - Automated workflow test",
+    "inValidationToCancelled": "Cancelling issue from In Validation status - Automated workflow test",
+    "inProgressToAcceptRisk": "Accepting risk for issue from In Progress status - Automated workflow test"
+  },
+  "actionPlan": {
+    "summary": {
+      "prefix": "Action Plan - ",
+      "fullNameKey": "actionPlanSummaryFullName",
+      "actionPlanSummaryFullName": "Action Plan - Sample Summary for Testing"
+    },
+    "assignee": {
+      "userName": "Automation user",
+      "fullUserName": "Automation user (automation@user.com)"
+    },
+    "businessUnit": {
+      "name": "Loan Operations",
+      "fullName": "Loan Operations - Business Unit"
+    }
+  },
+  "simpleSeverityWorkflow": {
+    "statusTransitions": {
+      "openToInProgress": {
+        "fromStatus": "Open",
+        "toStatus": "In Progress",
+        "buttonText": "Start Progress",
+        "comment": "Moving to In Progress - Simple Severity workflow"
+      },
+      "inProgressToClosed": {
+        "fromStatus": "In Progress",
+        "toStatus": "Closed",
+        "buttonText": "Remediated",
+        "comment": "Closing the issue - Simple Severity workflow"
+      },
+      "closedToInProgress": {
+        "fromStatus": "Closed",
+        "toStatus": "In Progress",
+        "buttonText": "Re-open",
+        "comment": "Reopening the issue - Simple Severity workflow"
+      }
+    },
+    "statusButtons": {
+      "open": [
+        "Edit",
+        "Comment",
+        "Attach Files",
+        "Assign",
+        "Start Progress",
+        "Export"
+      ],
+      "inProgress": [
+        "Edit",
+        "Comment",
+        "Attach Files",
+        "Assign",
+        "Remediated",
+        "Export"
+      ],
+      "closed": [
+        "Comment",
+        "Re-open",
+        "Export"
+      ]
+    }
+  }
+}

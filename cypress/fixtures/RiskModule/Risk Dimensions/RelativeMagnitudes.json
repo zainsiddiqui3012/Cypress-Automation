@@ -1,0 +1,29 @@
+
+[
+ 
+    {
+       "name" : "Add Relative Magnitudes Successfully",
+       "Lable1": "Low Risk",
+       "Lable1_Value": "100",
+
+       "Lable2": "Moderate Risk",
+       "Lable2_Value": "200",
+
+       "Lable3": "Major",
+       "Lable3_Value": "300",
+
+       "Lable4": "test - 01",
+       "Lable4_Value": "400",
+
+       "Lable5": "test - 02",
+       "Lable5_Value": "500"
+
+
+
+     
+   
+     }    
+   
+      
+   ]
+   

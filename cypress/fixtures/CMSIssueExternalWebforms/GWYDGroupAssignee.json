@@ -1,0 +1,16 @@
+[
+    {
+        "name" : "GWY DEMO : Fill Issue External Webform through Group Assignee",
+        "summaryForm" : "Group Assignee GWYDEMO: Form created through automation",
+        "submitterName" : "Automation User",
+        "responsibleDept" : "904 - Information Technology",
+        "issueType" : "Other",
+        "issueDescription" : "Issue description added through automation.",
+        "assignee_owner" : "GWY DEMO Customer",
+        "issueSource" : "Self-Identified",
+        "agencyEntities" : "Crowe",
+        "severityForm" : "Ahsan",
+        "successMessage" : "Your issue has been successfully submitted."
+
+    }
+]

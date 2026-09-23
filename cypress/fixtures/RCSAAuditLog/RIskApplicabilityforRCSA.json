@@ -1,0 +1,13 @@
+[
+    {
+      "Applicable": "Risk Applicability Flyer: Mark Applicable Risk from Risk Register Successfully",
+      "BU" : "Bu added for risk applicability popup testing",
+      "SearchRisk" : "Automation Testing Edit Mar 22, 2023 10:15:03 AM",  
+      "Defer": "Risk Applicability Flyer: Mark Defer Risk from Risk Register Successfully",
+      "NotApplicable": "Risk Applicability Flyer: Mark Not Applicable Risk from Risk Register Successfully",
+      "Emerging": "Risk Applicability Flyer: Mark Emerging Risk from Risk Register Successfully",
+       "RiskID" : "AUTO-1800",
+       "Status": "Open",
+       "CreatedDate": "21/May/2024"
+    }
+  ]

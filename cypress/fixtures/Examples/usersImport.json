@@ -1,0 +1,16 @@
+{
+  "Predict_user_bulk_import_templa": [
+    {
+      "First Name": "Demo User",
+      "Last Name": "User",
+      "Email Address": "automation-bitbucket-user@360factors.com",
+      "User Groups (Multiple values colon separated and Site based User Groups are not allowed)": "",
+      "User Name": "ijlmusxa",
+      "Organizational Group": "",
+      "Site": "",
+      "Roles (Multiple values colon separated)": "",
+      "Reseller Key": "KXIAUTO",
+      "Customer Key": "KXICUST"
+    }
+  ]
+}

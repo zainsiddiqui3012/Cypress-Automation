@@ -1,0 +1,20 @@
+[
+    {
+        "name" : "First CPTL : Data Validation for Issue External Webform through Single Assignee",
+        "summaryForm" : "Single Assignee: Form created through automation",
+        "submitterName" : "Automation User",
+        "responsibleDept" : "Audit",
+        "issueType" : "Service Quality",
+        "issueDescription" : "Issue description added through automation.",
+        "potentialLoss" : "60",
+        "actualLoss" : "40",
+        "rootCause" : "Other",
+        "owner" : "FCPTL Customer",
+        "issueSource" : "Others",
+        "successMessage" : "Your issue has been successfully submitted.",
+        "issueStatus": "New",
+        "issueFormType" : "Issue Management",
+        "assigneeName" : "admin.CPTL"
+
+    }
+]

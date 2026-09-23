@@ -1,0 +1,15 @@
+[
+  {
+    "Applicable": "Risk Applicability Flyer: Mark Applicable Risk from Risk Register Successfully",
+    "BU2": "BU-2",
+
+    "Defer": "Risk Applicability Flyer: Mark Defer Risk from Risk Register Successfully",
+    "BU1": "BU-1",
+
+    "NotApplicable": "Risk Applicability Flyer: Mark Not Applicable Risk from Risk Register Successfully",
+    "BU3": "BU-3",
+
+    "Emerging": "Risk Applicability Flyer: Mark Emerging Risk from Risk Register Successfully",
+    "BU4": "BU-4"
+  }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "First CPTL : Fill Issue External Webform through Single Assignee",
+        "summaryForm" : "Single Assignee: Form created through automation",
+        "IssueSource" : "Others",
+        "issueDescription" : "Issue description added through automation.",
+        "issueType" : "Service Quality",
+        "owner" : "FCPTL Customer",
+        "submitterName" : "Automation User",
+        "responsibleDept" : "IT",
+        "potentialLoss" : "60",
+        "actualLoss" : "40",
+        "rootCause" : "Other"
+    
+
+    }
+]

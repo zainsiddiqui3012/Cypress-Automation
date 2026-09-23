@@ -1,0 +1,134 @@
+{
+  "addRiskEvent": {
+    "validData": {
+      "name": "Test Risk Event",
+      "description": "This is a test risk event for automation",
+      "eventType": "Audit",
+      "owner": "admin BU",
+      "status": "Active",
+      "eventDate": "12/25/2024",
+      "previousDate": "12/20/2024",
+      "futureDate": "12/30/2025"
+    },
+    "validDataforclosedate": {
+      "name": "Test Risk Event",
+      "description": "This is a test risk event for automation",
+      "eventType": "Audit",
+      "owner": "admin BU",
+      "status": "Active",
+      "closedDate": "12/25/2024"
+    },
+    "nameOnly": {
+      "name": "Test Risk Event Name Only",
+      "eventType": "Meeting",
+      "owner": "admin BU",
+      "status": "Active",
+      "eventDate": "12/26/2024"
+    },
+    "longName": {
+      "name": "This is a very long name that exceeds the 255 character limit for testing validation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+      "eventType": "Risk Assessment",
+      "owner": "admin BU",
+      "status": "Active",
+      "eventDate": "12/27/2024"
+    },
+    "duplicateName": {
+      "name": "Duplicate Risk Event",
+      "eventType": "Operational Loss Event",
+      "owner": "admin BU",
+      "status": "Active",
+      "eventDate": "12/28/2024"
+    }
+  },
+  "editRiskEvent": {
+    "updateName": {
+      "name": "Updated Risk Event Name",
+      "eventType": "Meeting",
+      "owner": "admin BU",
+      "status": "Active",
+      "eventDate": "12/30/2024",
+      "previousDate": "12/25/2024",
+      "futureDate": "12/30/2025"
+    },
+    "updateDescription": {
+      "description": "Updated description for risk event"
+    },
+    "existingName": {
+      "name": "Fraud Loss"
+    }
+  },
+  "searchFilters": {
+    "exactMatch": "Test Risk Event",
+    "partialMatch": "Test",
+    "mixedCase": "tEsT",
+    "nonExistent": "xyz123NonExistent",
+    "specialChars": "@#&Test",
+    "emptyFilter": ""
+  },
+  "validationMessages": {
+    "nameRequired": "Name is required",
+    "nameLength": "Please enter no more than 255 characters",
+    "duplicateName": "Risk event name already exists.",
+    "saveError": "Problem(s) in save. Please update the highlighted fields below and try again."
+  },
+  "lastCreatedEvents": {
+    "validDataEvent": {
+      "name": "Test Risk Event_1760009639132",
+      "createdAt": "2025-10-09T11:33:59.143Z",
+      "testCase": "Should add Risk Event with valid name and description"
+    },
+    "nameOnlyEvent": {
+      "name": "Test Risk Event Name Only_1760011421551",
+      "createdAt": "2025-10-09T12:03:41.554Z",
+      "testCase": "Should add Risk Event with name only"
+    }
+  },
+  "currentEditTest": {
+    "baseEvent": {
+      "name": "Test Risk Event_1760011478930",
+      "originalData": {
+        "name": "Test Risk Event",
+        "description": "This is a test risk event for automation",
+        "eventType": "Audit",
+        "owner": "admin BU",
+        "status": "Active",
+        "eventDate": "12/25/2024",
+        "previousDate": "12/20/2024",
+        "futureDate": "12/30/2025"
+      },
+      "createdAt": "2025-10-09T12:04:38.936Z"
+    }
+  },
+  "validationTestResults": {
+    "emptyName": {
+      "testExecutedAt": "2025-10-09T12:06:43.205Z",
+      "testCase": "Should show validation error when saving with empty name",
+      "expectedError": "Problem(s) in save. Please update the highlighted fields below and try again.",
+      "result": "passed"
+    },
+    "longName": {
+      "testExecutedAt": "2025-10-09T12:07:16.289Z",
+      "testCase": "Should show validation error when name exceeds 255 characters",
+      "maxLength": 255,
+      "expectedError": "Problem(s) in save. Please update the highlighted fields below and try again.",
+      "result": "passed"
+    }
+  },
+  "filterHistory": {
+    "fullNameSearch": {
+      "searchTerm": "Test Risk Event_1760009639132",
+      "searchType": "full_name",
+      "searchExecutedAt": "2025-10-09T12:10:28.458Z",
+      "testCase": "Should filter with full event name",
+      "result": "found_results"
+    },
+    "partialNameSearch": {
+      "searchTerm": "Test Risk Event_175742",
+      "fullEventName": "Test Risk Event_1757426829570",
+      "searchType": "partial_name",
+      "searchExecutedAt": "2025-09-11T12:29:27.702Z",
+      "testCase": "Should filter with partial event name",
+      "result": "found_results"
+    }
+  }
+}

@@ -1,0 +1,495 @@
+import { defineConfig } from "cypress";
+import mysql = require("cypress-mysql");
+const { removeDirectory } = require("cypress-delete-downloads-folder");
+const excelUtils = require("../cypress/support/POM/RiskAndControlRegister/Administration/helpers/excelUtils.js");
+
+// Add fs import for the isFileExist task
+const fs = require("fs");
+
+export default defineConfig({
+  //   const { defineConfig } = require('cypress')
+  //   const { defineConfig } = require('cypress')
+
+  // module.exports = defineConfig({
+  // extends: './cypress.json',
+
+  //////#########Environment Credentials##########////////////////
+  env: {
+    username_dap: "automation.dapuser002",
+    password_dap: "Test@123!",
+    key_dap: "auto",
+
+    username: "automation.user",
+    password: "Test@1234",
+    key: "auto",
+    USER_ID: 33448,
+    NAME: "Automation User",
+
+    // #### STAGE URLs ####
+    CONTROL_TYPES:
+      "http://172.16.249.51:8081/predict360/manageControlType.do?method=listControlTypes",
+
+    ////#### KXI User : Kxi Manager
+    kxiusername: "axuser01",
+    kxipassword: "Test@123",
+    kxikey: "AXIO",
+
+    rcsa_username: "automation.rcsa",
+    rcsa_password: "Test@123",
+    rcsa_key: "auto",
+
+    ////######Risk user feature Controls#######//////
+    username1: "automation.fuser",
+    password1: "Test@1234",
+    key1: "autof",
+
+    ////######Risk user: Feture off : Manage Detailed Controls and Use Assessments to Calculate Inherent Risk  #######//////
+    username2: "automation.user01",
+    password2: "Test@1234",
+    key2: "ACT",
+
+    ////######Risk user: Feture off : Use Control Strength to calculate Residual Risk and Manage Detailed Controls#######//////
+    username3: "automation.user02",
+    password3: "Test@1234",
+    key3: "autoact",
+
+    cmsusername: "automationbfsi",
+    cmspassword: "Test@1234",
+    cmskey: "bcus",
+
+    // ADD Issue Management User HERE
+    ISSUE_USER: {
+      USERNAME: "automation@user",
+      PASSWORD: "Test@123",
+      KEY: "STGDECI",
+    },
+    // #### stage Credentials###
+
+    USER: {
+      FNBA: {
+        USERNAME: "fnba.admin",
+        PASSWORD: "Bankbank123!!!",
+        KEY: "FNBA",
+      },
+      NONE: {
+        USER_NAME: "automation@none",
+        PASSWORD: "Test@123456",
+        KEY: "None",
+      },
+      RCSA_REVIEWER: {
+        USERNAME: "fnba.admin",
+        PASSWORD: "Bankbank123!!!",
+        KEY: "FNBA",
+      },
+      APFCUS: {
+        username: "admin.apfcusb",
+        password: "mRJqRyB16$!4@puN",
+        key: "apfcusb",
+      },
+      ONE_FINANCE: {
+        username: "admin.onesb",
+        password: "U8fx42G8MW6w",
+        key: "onesb",
+      },
+      SIMS: {
+        username: "admin.sims",
+        password: "ES8WoWywjJDP6R#G",
+        key: "sims",
+      },
+      Kxi_Customer: {
+        USERNAME: "kxicustomer",
+        PASSWORD: "Test@123!",
+        KEY: "KXICUST",
+      },
+      CBBANK: {
+        username: "admin.cbbsb",
+        password: "Kb5CuW1DCmTj",
+        key: "cbbsb",
+      },
+      REG_CHANGE: {
+        RESELLER: {
+          USERNAME: "reseller.regUser",
+          PASSWORD: "Test@123",
+          KEY: "wcru",
+        },
+        CUSTOMER: {
+          USERNAME: "reg.User",
+          PASSWORD: "Test@123",
+          KEY: "CRCJ",
+        },
+        CUSTOMER1: {
+          USERNAME: "feed.jira",
+          PASSWORD: "Test@123",
+          KEY: "Regfeed",
+        },
+      },
+    },
+
+    /** KXI USERS **/
+
+    riskManagement: {
+      rmUser: {
+        username: "adminfive",
+        password: "Test@123",
+        key: "hawkins",
+      },
+      rmUserA: {
+        username: "riskuserA",
+        password: "Test@1234",
+        key: "riskcusta",
+      },
+      withRMB: {
+        username: "admindoc",
+        password: "Test@123",
+        key: "DOCS",
+      },
+      subgridUser: {
+        username: "subgriduser",
+        password: "Test@123456",
+        key: "sgcust",
+      }
+     },
+      kxi: {
+        none: {
+          username: "automation@none",
+          password: "Test@123456",
+          key: "NONE",
+        },
+
+        reseller: {
+          username: "kxireseller",
+          password: "Test@123!",
+          key: "KXIAUTO",
+        },
+        customer: {
+          withRM: {
+            username: "kxicustomernew",
+            password: "Test@123!",
+            key: "ANALYSIS",
+          },
+          withRM2: {
+            username: "admindoc",
+            password: "Test@123",
+            key: "DOCS",
+          },
+          withRM3: {
+            username: "produser",
+            password: "Test@123",
+            key: "prodcu",
+          },
+          withoutRM: {
+            username: "kxicustworm",
+            password: "Test@123!",
+            key: "LUMIFYCUST",
+          },
+          withRM4: {
+            username: "fnba.admin2",
+            password: "Bankbank123!!!",
+            key: "fnba",
+          },
+          BUUser: {
+            username: "testbuuser",
+            password: "Test@123!",
+            key: "CUSTKXI",
+          },
+          withoutRM_PEER: {
+            username: "kxicustwormpeer",
+            password: "Test@123!",
+            key: "KXIWOPEER",
+          },
+          dummyPassword: {
+            password: "Test@123",
+          },
+          DMS: {
+            username: "PROD",
+            password: "Test@12345",
+            key: "Livee",
+          },
+          decision: {
+            username: "ahsan.stgdeci",
+            password: "Test@123",
+            key: "STGDECI",
+            fullName: "ahsan stgdeci",
+            user: "ahsan.stgdeci",
+          },
+          decisionRead: {
+            username: "kxi.read",
+            password: "Test@123",
+            key: "STGDECI",
+          },
+        },
+       },
+    // },
+    /** DATABASE USER **/
+
+      db: {
+        host: "172.16.251.140",
+        user: "stg_automation",
+        password: "uC7rj15JuePr",
+        database: "predict360",
+      },
+
+      waits: {
+        veryLongWait: 100000,
+        longWait: 700000,
+        mediumWait: 85000,
+        shortWait: 15000,
+      },
+
+      URL: {
+        ADMINISTRATION: {
+          ROLES:
+            "http://172.16.249.51:8081/predict360/manage.do?method=listRole",
+          ORGANIZATIONAL_HIERARCHY:
+            "https://qa2.360factors.com/predict360/facility.do?method=listFacility",
+        },
+        INSTRUCTION_TEMPLATE:
+          "http://172.16.249.51:8081/predict360/web/riskReviewInstructions/getInstructions",
+        CONTROL_TYPES:
+          "http://172.16.249.51:8081/predict360/manageControlType.do?method=listControlTypes",
+      },
+
+      profile_Url:
+        "http://172.16.249.51:8081/predict360/profile.do?method=viewUserProfile",
+      GENERATE_TOKEN:
+        "https://predict-micro-stage-api.360factors.com/api/v1/auth/generate-token",
+      kri_Data_Grid_Url:
+        "http://172.16.249.51:8081/predict360/web/kriDataManagment/kriDataGrid",
+      import_API:
+        "http://172.16.249.51:8081/predict360/web/kriDataManagment/importKriDat",
+      ADD_KXI_DATA_API:
+        "https://predict-micro-stage-api.360factors.com/api/v1/kxi/data",
+      kxi_Def_Url:
+        "http://172.16.249.51:8081/predict360/web/kriDefination/kriDefinationGrid",
+      kxi_Insight_Grid_Url:
+        "http://172.16.249.51:8081/predict360/web/lumify/grid",
+      KXI_INSIGHT_RISK_URL:
+        "http://172.16.249.51:8081/predict360/web/riskInsight/riskInsightGrid",
+      KXI_CATEGORIES:
+        "http://172.16.249.51:8081/predict360/web/kriCategory/kriCategoryGrid",
+
+      RISK_APPETITE_URL:
+        "http://172.16.249.51:8081/predict360/web/riskAppetite/riskAppetiteGrid",
+      RISK_TAXONOMIES:
+        "http://172.16.249.51:8081/predict360/web/risk-control-taxonomy/load-mytaxonomy",
+      CONTROL_OPERATIONS:
+        "http://172.16.249.51:8081/predict360/web/controlOperation/controlOperationGrid",
+      RISK_ANALYSIS_DIMENSIONS:
+        "http://172.16.249.51:8081/predict360/riskanalysisDimensions.do?method=listRiskAnalysisDimensions",
+      BUSINESS_AREA:
+        "http://172.16.249.51:8081/predict360/web/business-areas/business-areas-grid",
+      ORGANIZATIONAL_HIERARCHY:
+        "http://172.16.249.51:8081/predict360/facility.do?method=listFacility",
+      LOCATION:
+        "http://172.16.249.51:8081/predict360/facility.do?method=listSite",
+      MAIN_URL: "http://172.16.249.51:8081/predict360/",
+      BASE_URL: "https://qa.360factors.com",
+      MAIN_URL2: "http://172.16.249.51:8081/",
+
+      RISK_LIBRARIES_CUSTOMER_SPACE:
+        "http://172.16.249.51:8081/predict360/web/risk-control-taxonomy/load-grid",
+      RISK_REGISTER:
+        "http://172.16.249.51:8081/predict360/web/usablityController/riskRegisterGrid",
+      CONTROL_DEFINITION_CATEGORIES_NONE_SPACE:
+        "http://172.16.249.51:8081/predict360/web/controlDefination/controlDefinationGrid",
+      RISK_EVENT:
+        "http://172.16.249.51:8081/predict360/manageRiskEvent.do?method=listRiskEvents",
+      EVENT_TYPE:
+        "http://172.16.249.51:8081/predict360/manageEventType.do?method=listEventTypes",
+      notificationSetting_url:
+        "http://172.16.249.51:8081/predict360/setting/notificationsetting/view?isCustomerLevel=false",
+
+      ROLES:
+        "http://172.16.249.51:8081/predict360/manage.do?method=listRole",
+      RESELLER:
+        "http://172.16.249.51:8081/predict360/manage.do?method=listReseller",
+      MY_QUESTION_BANK:
+        "http://172.16.249.51:8081/predict360/manageFrameworks.do",
+      FRAMEWORK:
+        "http://172.16.249.51:8081/predict360/manageCategory.do?method=listFramework&type=frameworks",
+
+      TEMPLATE:
+        "http://172.16.249.51:8081/predict360/manageSurveys.do?method=searchSurveys",
+
+      CONTENT_SOURCE:
+        "http://172.16.249.51:8081/predict360/web/contentSources/contentSourcesGrid",
+      QUESTION_BANK:
+        "http://172.16.249.51:8081/predict360/manageFrameworks.do?method=searchManageSurveyBanks",
+
+    CONTENT_LIBRARY:
+      "http://172.16.249.51:8081/predict360/web/contentLibrary/contentLibraryGrid",
+    DEFINITION_URL:
+      "http://172.16.249.51:8081/predict360/web/kriDefination/activeKriDefinationGridData/?_=*",
+    ISSUE_MANAGEMENT_DASHBOARD:
+      "http://172.16.249.51:8081/predict360/decisions.do?page=Issue_Dashboard",
+
+      // Dynamic Decision URLs - Base URL constructed once
+      DECISION_BASE_URL() {
+        return `https://decisions-stg.360factors.com/${
+          Cypress.env("kxi").customer.decision.key
+        }`;
+      },
+      DECISION_GRID_LOAD() {
+        return `${this.DECISION_BASE_URL}/API/ReportViewService/js/GetGridViewResultData?rand=*`;
+      },
+      DECISION_API_GETALLMESSAGES() {
+        return `${this.DECISION_BASE_URL}/API/TranslationService/js/GetAllHelpMessages?rand=*`;
+      },
+      DECISION_API_SELECTPATH() {
+        return `${this.DECISION_BASE_URL}/API/FormService/js/SelectPath?rand=*`;
+      },
+      DECISION_API_FORMLOAD() {
+        return `${this.DECISION_BASE_URL}/API/FormService/js/FormLoadComplete?rand=*`;
+      },
+      DECISION_LOGIN_URL() {
+        return `${this.DECISION_BASE_URL}/Account/Login`;
+      },
+
+      CUSTOMER:
+        "http://172.16.249.51:8081/predict360/manage.do?method=listCustomer",
+
+      USERS:
+        "http://172.16.249.51:8081/predict360/manage.do?method=listUser",
+      RISK_TAXONOMY:
+        "http://172.16.249.51:8081/predict360/web/riskTaxonomy/riskTaxonomyGrid",
+      CONTROL_TAXONOMY:
+        "http://172.16.249.51:8081/predict360/web/controlTaxonomy/controlTaxonomyGrid",
+      VENDOR_RISK_MANAGEMENT:
+        "http://172.16.249.51:8081/predict360/web/vrm/vendorRiskRegister",
+      COMPLAINT_WEB_FORM:
+        "http://172.16.249.51:8081/predict360/web/complaint/apfcu/APFCUSB",
+      COMPLAINT_EXTERNAL_FORM:
+        "http://172.16.249.51:8081/predict360/web/complaint/SIMS",
+      COMPLIANCE_DASHBOARD:
+        "http://172.16.249.51:8081/predict360/casemanagement.do",
+      CUSTOMFIELD_SCREEN:
+        "http://172.16.249.51:8081/predict360/manageCustomFields.do?method=listCustomFields",
+      RCSA_FORM:
+        "http://172.16.249.51:8081/predict360/web/riskReviewInstructions/getInstructions",
+      COMPLAINT_FORM:
+        "http://172.16.249.51:8081/casemanagement/secure/CreateIssue!default.jspa?issuetype=11000",
+      USER_GROUP:
+        "http://172.16.249.51:8081/predict360/manage.do?method=listGroup",
+      CUSTOMER_PROFILE:
+        "http://172.16.249.51:8081/predict360/manage.do?method=preference",
+      CONTROL_TAXONOMY_CUSTOMER_SPACE:
+        "http://172.16.249.51:8081/predict360/manageRiskRegisterControlItem.do?method=listRiskRegisterControlItems",
+      CONTROL_TYPES_NONE_SPACE:
+        "http://172.16.249.51:8081/predict360/manageControlType.do?method=listControlTypes",
+      Location:
+        "http://172.16.249.51:8081/predict360/facility.do?method=listSite",
+      Category:
+        "http://172.16.249.51:8081/predict360/manageCategory.do?method=listCategory",
+      AREAS: "http://172.16.249.51:8081/predict360/web/area/list",
+      Area: "http://172.16.249.51:8081/predict360/web/area/list",
+      BSA_SUBCATEGORY:
+        "http://172.16.249.51:8081/predict360/web/subcategory/subcategoryGrid",
+      AGENCIES: "http://172.16.249.51:8081/predict360/web/agency/list",
+      KXI_TASK_DASHBOARD:
+        "http://172.16.249.51:8081/predict360/decisions.do?page=Kxi_Task_Dashboard",
+      CONTROL_DEFINITION_CATEGORIES_CUSTOMER_SPACE:
+        "http://172.16.249.51:8081/predict360/web/controlDefination/controlDefinationGrid",
+      CONTROL_OPERATION_CUSTOMER_SPACE:
+        "http://172.16.249.51:8081/predict360/web/controlOperation/controlOperationGrid",
+    },
+
+    projectId: "egb9q8",
+    e2e: {
+      trashAssetsBeforeRuns: false,
+      watchForFileChanges: false,
+      // We've imported your old cypress plugins here.
+      // You may want to clean this up later by importing these.
+      setupNodeEvents(on, config) {
+        //task to check if file exist
+        on("task", {
+          isFileExist(filePath) {
+            return new Promise((resolve, reject) => {
+              try {
+                let isExists = fs.existsSync(filePath);
+                resolve(isExists);
+              } catch (e) {
+                reject(e);
+              }
+            });
+          },
+          // Use the utility functions
+          // FIXED: Return actual results, not config
+          fileExists(filePath) {
+            console.log(
+              `=== DEBUG: fileExists task called with: ${filePath} ===`
+            );
+            try {
+              const result = excelUtils.fileExists(filePath);
+              console.log(`excelUtils.fileExists returned: ${result}`);
+              return result;
+            } catch (error) {
+              const errorMessage =
+                error instanceof Error ? error.message : String(error);
+              console.log(`ERROR in fileExists: ${errorMessage}`);
+              return false;
+            }
+          },
+
+          updateRiskTaxonomyNameInExcel(params) {
+            console.log(`=== DEBUG: updateRiskTaxonomyNameInExcel called ===`);
+            console.log(`Params:`, params);
+            try {
+              const result = excelUtils.updateRiskTaxonomyNameInExcel(params);
+              console.log(`updateRiskTaxonomyNameInExcel returned:`, result);
+              return result;
+            } catch (error) {
+              const errorMessage =
+                error instanceof Error ? error.message : String(error);
+              console.log(
+                `ERROR in updateRiskTaxonomyNameInExcel: ${errorMessage}`
+              );
+              return { success: false, error: errorMessage };
+            }
+          },
+        });
+        //to remove directory
+        // Conditionally skip cleanup
+        if (process.env.CYPRESS_SKIP_CLEANUP != "true") {
+          on("task", { removeDirectory });
+          require("cypress-mochawesome-reporter/plugin")(on);
+        }
+
+        mysql.configurePlugin(on);
+        return config;
+      },
+
+      // To avoid white blank screen during Test execution by cypress open
+      numTestsKeptInMemory: 1,
+      //////########Environment URL ##########////////////////
+
+      baseUrl: "http://172.16.249.51:8081/predict360/login.do",
+
+      specPattern: "cypress/e2e/**/*.{js,jsx,ts,tsx}",
+      chromeWebSecurity: false,
+      // defaultCommandTimeout: 20000,
+      pageLoadTimeout: 750000,
+      viewportHeight: 1080,
+      viewportWidth: 1920,
+      experimentalMemoryManagement: true,
+      excludeSpecPattern: [
+        "cypress/e2e/IssueManagement-Decisions/**/*.cy.js",
+        "cypress/e2e/RegChangeManagementV2-Decisions/**/*.cy.js",
+      ],
+      retries: {
+        // Configure retry attempts for `cypress run`
+        // Default is 0
+        runMode: 0,
+        // Configure retry attempts for `cypress open`
+        // Default is 0
+        openMode: 0,
+      },
+      //Report Configuration
+      reporter: "cypress-mochawesome-reporter",
+      reporterOptions: {
+        configFile: "../reporter-config.json",
+        inlineAssets: true,
+        toConsole: true,
+      },
+    },
+  }
+);

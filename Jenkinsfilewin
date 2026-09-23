@@ -1,0 +1,99 @@
+pipeline {
+ 
+agent any
+ 
+tools {nodejs "node"}
+ 
+stages {
+
+    stage('Build') {  
+        steps {     
+            bat 'npm install'
+            bat 'node --version'
+            bat 'npm --version'
+        }
+    }
+
+    //****Result folder deleted***//
+    stage('Build : Result folder deleted') {       
+        steps {      
+            dir("cypress/results/") {
+                echo pwd()
+                deleteDir()
+            }                
+        }
+    }
+
+    //****Deleted Mochawesome folder***//
+    stage('Build : deleted Mochawesome folder') {      
+        steps {            
+            dir("mochawesome-report/") {
+                echo pwd()
+                deleteDir()
+            }                          
+        }
+    }
+
+    //****Deleted Zip folder Mochawesome folder***//
+    stage('Build : deleted Zip Mochawesome folder') {       
+        steps {            
+            dir("mochawesome-report.zip")  {
+                echo pwd()
+                deleteDir()
+            }                          
+        }
+    }
+
+    //****Run Test : Created Result and mochawesome folder Again!***//
+    stage('Run Test : Created Result and mochawesome folder Again!') {        
+        steps {      
+            powershell 'New-Item -Path "cypress/results/" -ItemType Directory'
+            powershell 'New-Item -Path "cypress/reports/" -ItemType Directory'
+        }
+    }
+
+    //**** Run Cypress Test cases***//
+    stage('Run Test Case') {        
+        steps {    
+            bat 'npm run %Script%'
+        }
+    }
+
+    stage('Deploy') {
+        steps {
+            echo 'Deploying....'
+        }
+    }
+}
+
+post {
+    always {
+        //****Create Zip Report Folder***//
+        bat 'reportfolderzip'          
+
+        sleep(10)
+
+        //****Handle CMS-Assessment Path***//
+        script {
+            def cmsPath = "${env.WORKSPACE} Email Job"
+            dir(cmsPath) {
+                echo "Deleting folder at: ${pwd()}"
+                deleteDir()
+            }
+
+            //****Create New Folder in CMS-Assessment***//
+            powershell "New-Item -Path '${cmsPath}' -ItemType Directory"
+
+            sleep(10)
+
+            //****Copy Files In CMS-Assessment Job***//
+            bat 'reportfolderzip'
+            sleep(30)
+
+            //****Trigger Build for CMS-Assessment Email Notification***//
+            def emailJob = "${env.JOB_NAME} Email Job"
+            build propagate: false, job: emailJob
+        }
+    }
+}
+}

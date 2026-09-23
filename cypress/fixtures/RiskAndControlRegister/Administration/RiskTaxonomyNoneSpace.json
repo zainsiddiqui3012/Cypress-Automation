@@ -1,0 +1,73 @@
+{
+  "riskTaxonomy": {
+    "riskTaxonomyName": "Updated Risk Taxonomy $$$ moynn",
+    "statusInactive": "Inactive",
+    "statusActive": "Active",
+    "contentLibraryRequired": false,
+    "emptyRecordError": "Empty record exist",
+    "duplicateName": "test Risk Taxonomy qdaqcqxu",
+    "descriptionText": "description"
+  },
+  "riskCatagory": {
+    "add": {
+      "riskCategoryId": "ZZ $$ Risk Cat 10/08/2025 06:28 PM",
+      "baseName": "ZZ $$ Risk Cat ",
+      "name": "ZZ $$ Risk Cat 10/08/2025 06:28 PM",
+      "description": "test description",
+      "controlDefinitionId": "ZZ $$ Risk Cat 10/08/2025 06:28 PM"
+    },
+    "update": {
+      "riskCategoryId": "ZZ $$ Update Risk Cat 10/08/2025 06:39 PM",
+      "baseName": "ZZ $$ Update Risk Cat ",
+      "name": "ZZ $$ Update Risk Cat 10/08/2025 06:39 PM",
+      "description": "update description",
+      "controlDefinitionId": "ZZ $$ Update Risk Cat 10/08/2025 06:39 PM"
+    },
+    "formBtnText": "Add Risk Category",
+    "nameMaxLength": 255,
+    "descriptionMaxLength": 5000,
+    "validationErrors": {
+      "missingField": "Please Enter Name And Then Select Content Library"
+    }
+  },
+  "riskDefinition": {
+    "add": {
+      "riskDefinitionId": "ZZ $$ Risk Def 10/08/2025 06:40 PM",
+      "baseName": "ZZ $$ Risk Def ",
+      "name": "ZZ $$ Risk Def 10/08/2025 06:40 PM",
+      "description": "test description",
+      "status": "Active",
+      "riskCategory": "ZZ $$ Update Risk Cat 10/08/2025 06:39 PM",
+      "controlDefinitionId": "ZZ $$ Risk Def 10/08/2025 06:40 PM"
+    },
+    "update": {
+      "riskDefinitionId": "",
+      "baseName": "ZZ $$ Update Risk Def ",
+      "name": "",
+      "description": "update Description",
+      "status": "Active"
+    },
+    "controlLibrary": {
+      "name": "test Library jsyco"
+    },
+    "controlTaxonomy": {
+      "name": "test Control Taxonomy unqhlzfd"
+    },
+    "controlDefinitions": [
+      "Test Risk Def 01",
+      "Test Risk Def 02"
+    ],
+    "controlDef1": "Test Risk Def 01",
+    "controlDef2": "Test Risk Def 02",
+    "specialCharacters": "Test@#$%^&*()Definition",
+    "formBtnText": "Add Risk Definition",
+    "nameMaxLength": 255,
+    "descriptionMaxLength": 5000,
+    "validationErrors": {
+      "missingField": "Please Select a Different Parent. Parent Selected same as Risk Category being edited.",
+      "missingName": "Please Enter Name And Then Select Content Library",
+      "riskIDRequired": "Risk Definition ID is Required"
+    },
+    "richTextDescription": "<b>Bold text</b><i>Italic text</i><ul><li>Bullet point 1</li><li>Bullet point 2</li></ul>"
+  }
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "name" : "GWY DEMO Issue Form Required fields validation check.",
+        "assigneeError" : "Assignee is required.",
+        "errorMessageSummary" : "summary: You must specify a summary of the issue.",
+        "errorMessageSubName" : "Submitter Name: Submitter Name is required.",
+        "errorMessageIssueIdentificationDate" : "Issue identification date: Issue identification date is required.",
+        "errorMessageIssueDescrp" : "Issue Description: Issue Description is required.",
+        "errorMessageResDept" : "Responsible Department: Responsible Department is required.",
+        "errorMessageOwners" : "Owner: Owner is required."
+
+    }
+]

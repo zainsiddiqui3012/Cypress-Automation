@@ -1,0 +1,16 @@
+
+[
+ 
+ {
+    "name" : "Edit Control Definition Successfully",
+    "controlDefinitionID": "Edit DefintionID " ,
+    "definitionName": "Edit Control Definition Name ",
+    "description": "Edit Control description ",
+    "controlFrequency": "Monthly",
+    "controlTypes": "Containment",
+    "controlExecution": "IT Dependent",
+    "optimalRoleTitle": "Control Definition Title Add (Automation Testing) ",
+    "comment": "Comments Add Control Definition (Automation Testing) "
+    
+  }
+]

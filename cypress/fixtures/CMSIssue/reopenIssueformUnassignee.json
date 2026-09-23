@@ -1,0 +1,40 @@
+[
+    {
+       "name" : "Reopen an Issue management form with Un Assignee",
+       "priority" : "Low",
+       "severity" : "Low",
+       "taskType" : "Issue Management",
+       "assigneeName" : "cmsautomationuser001",
+       "reporter" : "cmsautomationuser001",
+       "description" : "Issue created through automation for un assignee",
+       "comment" : "Comment added through automation",
+       "reopenButton" : "Reopen",
+       "reopenComment" : "Issue form reopened for un assignee",
+       "reopenStatus" : "New",
+       "acceptanceComment" : "Issue acceptance comment added through automation",
+        "statusAfterAccept" : "In Process",
+        "issueType" : "Action Plan",
+        "Description" : "Description added through automation for action plan.",
+        "prioritySubtask" : "Low",
+        "site" : "BCUS Site A",
+        "statusSubtaskreject" : "In Progress",
+        "subjectArea" : "CATEGORY - 02",
+        "Subtasksummary" : "Subtask added through automation for un assignee",
+        "resolveComment" : "Issue resolved through automation",
+        "issueResolveStatus" : "Resolved",
+        "acceptedComment" : "Issue closed through automation",
+        "issueAcceptedStatus" : "Closed",
+        "issueSubtaskNewStatus" : "Open",
+        "actionPlanStatus" : "Status updated through automation.",
+        "subtaskcloseStatus" : "Closed",
+        "statusSubtask" : "Submitted for Closure",
+        "acceptComment" : "Acceptance added through automation",
+        "submittedStatus" : "Submitted for Closure",
+        "rejectSubtaskButton" : "Reject",
+        "rejectSubtaskStatus" : "In Progress",
+        "subtasksubmitButton" : "Submit for Closure"
+        
+          
+     }    
+    
+]

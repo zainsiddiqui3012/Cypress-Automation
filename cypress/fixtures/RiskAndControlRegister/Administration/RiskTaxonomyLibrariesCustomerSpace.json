@@ -1,0 +1,42 @@
+{
+  "test": {
+    "libraryName": "ABA Content Library >> ABA Risk Taxonomy",
+    "expectedCategories": [
+      "Compliance Risk",
+      "Country Risk",
+      "Credit Risk",
+      "Interest Rate Risk",
+      "Liquidity Risk",
+      "Operational Risk",
+      "Reputational Risk",
+      "Strategic Risk"
+    ],
+    "filterCategoryName": "Regulatory sanctions from  failure to comply with laws, regulations, rules, other regulatory requirements.",
+    "fliterBaName": "Automation BA",
+    "importCategory": "Compliance Risk",
+    "myTaxonomyRisk": "Import Risk Tax 10/08/2025 05:39 PM",
+    "parentCategory": "Compliance Risk",
+    "invalidFilter": "###@@@%",
+    "checkboxIndexes": [0, 1, 2],
+    "childCategories": [
+      "Violation of law and regulation",
+      "Fraud and Financial Crimes"
+    ],
+    "flyoutColumns": [
+      "Group",
+      "Name",
+      "Business Area Definition",
+      "Mapped to My Taxonomy"
+    ],
+    
+    "undo": {
+      "noRowsText": "No Rows To Show"
+    },
+    
+    "jobStatuses": {
+      "success": ["COMPLETED", "COMPLETED WITH ERRORS"],
+      "processing": ["PROCESSING"],
+      "error": ["FAILED", "ERROR"]
+    }
+  }
+}

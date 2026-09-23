@@ -1,0 +1,41 @@
+{
+  "regulatoryChangeManagement": {
+    "regulatoryChange": {
+      "name": "Regulatory Change Management",
+      "link": "javascript:void(0)"
+    },
+    "feedRegister": {
+      "name": "Regulatory Change Feed Register",
+      "link": "/predict360/web/regulatoryChangeController/regChangeFeedRegisterGrid"
+    },
+    "regChangeDashboard": {
+      "name": "Regulatory Change Dashboard",
+      "link": "/predict360/decisions.do?page=Reg_Change_Dashboard"
+    },
+
+    "administration": {
+      "name": "Administration",
+      "link": "javascript:void(0)"
+    },
+    "natureOfChange": {
+      "name": "Nature Of Change",
+      "link": "/predict360/web/natureOfChange/natureOfChangeGrid"
+    },
+    "changeType": {
+      "name": "Change Types",
+      "link": "/predict360/web/changeTypes/changeTypesGrid"
+    },
+    "magnitude": {
+      "name": "Magnitude",
+      "link": "/predict360/web/magnitudes/magnitudesGrid"
+    },
+    "actionPlanTemplate": {
+      "name": "Action Plan Template Instructions",
+      "link": "/predict360/web/actionPlanTempleteInstructions/actionPlanTempleteInstructionsView"
+    },
+    "evaluateImpactTemplate": {
+      "name": "Evaluate Impact Template Instructions ",
+      "link": "/predict360/web/evaluateImpactTemplateInstructions/evaluateImpactTemplateInstructionsView"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "credentials": {
+    "username": "cmsautomationuser001",
+    "password": "Test12345",
+    "customerKey": "bcus"
+  },
+  "regChange": {
+    "summary": "Reg Change",
+    "description": "Description",
+    "businessUnit": "4.21.1 ---- ORGANIZATIONAL GROUP",
+    "natureOfChange": "Final Rule",
+    "typeOfChange": "Auto Created",
+    "magnitude": "high",
+    "priority": "Low",
+    "dueDate": "26/Jul/2024",
+    "effectiveDate": "26/Jul/2024"
+  },
+  "assignees": {
+    "single": {
+      "username": "test.regchange",
+      "displayName": "test.regchange"
+    },
+    "group": {
+      "name": "Asma COC Group",
+      "displayName": "Asma COC Group"
+    }
+  },
+  "attachments": {
+    "valid": {
+      "fileName": "BCUS-26787.docx",
+      "path": "c:\\Users\\abbas.khan\\OneDrive - 360Factors\\Desktop\\hells-kitchen\\hells-kitchen\\hells-kitchen-automation\\src\\test\\resources\\dummy files\\BCUS-26787.docx"
+    },
+    "invalid": {
+      "fileName": "testing.docx",
+      "path": "c:\\Users\\abbas.khan\\OneDrive - 360Factors\\Desktop\\hells-kitchen\\hells-kitchen\\hells-kitchen-automation\\src\\test\\resources\\dummy files\\testing.docx"
+    },
+    "screenshot": {
+      "fileName": "screenshot-1.png",
+      "path": "c:\\Users\\abbas.khan\\OneDrive - 360Factors\\Desktop\\hells-kitchen\\hells-kitchen\\hells-kitchen-automation\\src\\test\\resources\\dummy files\\screenshot-1.png"
+    }
+  },
+  "watchers": {
+    "single": {
+      "username": "saad1manager1@bcus",
+      "displayName": "saad1 manager1 (saad1manager1@bcus)"
+    },
+    "group": [
+      {
+        "username": "asma.051021@bcus",
+        "displayName": "asma.051021@bcus"
+      },
+      {
+        "username": "asma.coc.user1@bcus",
+        "displayName": "asma.coc.user1@bcus"
+      },
+      {
+        "username": "asma.coc.user2@bcus",
+        "displayName": "asma.coc.user2@bcus"
+      }
+    ]
+  },
+  "errorMessages": {
+    "summaryRequired": "You must specify a summary of the issue",
+    "summaryTooLong": "Summary must be less than 255 characters.",
+    "commentTooLong": "The entered text is too long. It exceeds the allowed limit of 32767 characters.",
+    "attachmentError": "No data was sent for testing.docx. The browser may not be able to read the file.",
+    "attachmentTimeout": "Temporary attachment not found. Session may have timed out before submitting the form",
+    "actionPlanExists": "Action plan for selected Business Unit(s) is already in open state"
+  },
+  "statuses": {
+    "open": "Open",
+    "closed": "Closed",
+    "evaluateImpact": "Evaluate Impact",
+    "inProgress": "In Progress",
+    "approvalNeeded": "Approval Needed",
+    "submittedForClosure": "Submitted for Closure"
+  },
+  "urls": {
+    "stage": "https://stage.360factors.com",
+    "caseManagement": "https://stage.360factors.com/casemanagement/issues/?jql="
+  }
+}
